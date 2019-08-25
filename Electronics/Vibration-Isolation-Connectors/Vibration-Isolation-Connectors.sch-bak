@@ -1,0 +1,44 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 7750 3750 0    50   ~ 0
+-15V
+Text Label 7750 3900 0    50   ~ 0
+GND
+Text Label 7750 4050 0    50   ~ 0
+A+
+Text Label 7750 4200 0    50   ~ 0
+A-
+Text Label 7750 4350 0    50   ~ 0
+B+
+Text Label 7750 4500 0    50   ~ 0
+B-
+Text Label 7750 4650 0    50   ~ 0
+X+
+Text Label 7750 4800 0    50   ~ 0
+X-
+Text Label 7750 4950 0    50   ~ 0
+Y+
+Text Label 7750 5100 0    50   ~ 0
+Y-
+Text Label 7750 5550 0    50   ~ 0
+bias
+Text Label 7750 5250 0    50   ~ 0
+probe_current
+Text Label 7750 5400 0    50   ~ 0
+probe_gnd
+Text Label 7750 3600 0    50   ~ 0
++15V
+$EndSCHEMATC
