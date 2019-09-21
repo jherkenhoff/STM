@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:Tunnelling-Amp-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -85,7 +85,6 @@ Wire Wire Line
 	5400 3550 5400 3600
 Wire Wire Line
 	5400 4250 5400 4200
-NoConn ~ 5600 4200
 $Comp
 L power:GND #PWR01
 U 1 1 5D36B170
@@ -250,27 +249,27 @@ out
 $Comp
 L Device:RF_Shield_Two_Pieces J1
 U 1 1 5D3A9A3E
-P 3700 3200
-F 0 "J1" H 4430 3264 50  0000 L CNN
-F 1 "RF_Shield_Two_Pieces" H 4430 3173 50  0000 L CNN
-F 2 "RF_Shielding:Laird_Technologies_BMI-S-101_13.66x12.70mm" H 3700 3100 50  0001 C CNN
-F 3 "~" H 3700 3100 50  0001 C CNN
-	1    3700 3200
+P 3000 2650
+F 0 "J1" H 3730 2714 50  0000 L CNN
+F 1 "RF_Shield_Two_Pieces" H 3730 2623 50  0000 L CNN
+F 2 "RF_Shielding:Laird_Technologies_BMI-S-101_13.66x12.70mm" H 3000 2550 50  0001 C CNN
+F 3 "~" H 3000 2550 50  0001 C CNN
+	1    3000 2650
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
 U 1 1 5D3AEB62
-P 3700 3650
-F 0 "#PWR0101" H 3700 3400 50  0001 C CNN
-F 1 "GND" H 3705 3477 50  0000 C CNN
-F 2 "" H 3700 3650 50  0001 C CNN
-F 3 "" H 3700 3650 50  0001 C CNN
-	1    3700 3650
+P 3000 3100
+F 0 "#PWR0101" H 3000 2850 50  0001 C CNN
+F 1 "GND" H 3005 2927 50  0000 C CNN
+F 2 "" H 3000 3100 50  0001 C CNN
+F 3 "" H 3000 3100 50  0001 C CNN
+	1    3000 3100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3700 3650 3700 3600
+	3000 3100 3000 3050
 Connection ~ 5900 3900
 $Comp
 L Connector:TestPoint TP3

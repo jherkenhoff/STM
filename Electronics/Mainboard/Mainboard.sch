@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Mainboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -13,78 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Connector:Raspberry_Pi_2_3 J1
-U 1 1 5D616137
-P 2600 2700
-F 0 "J1" H 2600 4181 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 2600 4090 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Horizontal" H 2600 2700 50  0001 C CNN
-F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 2600 2700 50  0001 C CNN
-	1    2600 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2200 4000 2200 4100
-Wire Wire Line
-	2200 4100 2300 4100
-Wire Wire Line
-	2900 4100 2900 4000
-Wire Wire Line
-	2800 4000 2800 4100
-Connection ~ 2800 4100
-Wire Wire Line
-	2800 4100 2900 4100
-Wire Wire Line
-	2700 4100 2700 4000
-Connection ~ 2700 4100
-Wire Wire Line
-	2700 4100 2800 4100
-Wire Wire Line
-	2600 4000 2600 4100
-Connection ~ 2600 4100
-Wire Wire Line
-	2600 4100 2700 4100
-Wire Wire Line
-	2500 4100 2500 4000
-Connection ~ 2500 4100
-Wire Wire Line
-	2500 4100 2600 4100
-Wire Wire Line
-	2400 4000 2400 4100
-Connection ~ 2400 4100
-Wire Wire Line
-	2400 4100 2500 4100
-Wire Wire Line
-	2300 4100 2300 4000
-Connection ~ 2300 4100
-Wire Wire Line
-	2300 4100 2400 4100
-Wire Wire Line
-	2200 4100 2200 4200
-Connection ~ 2200 4100
-$Comp
-L power:GND #PWR01
-U 1 1 5D618EE8
-P 2200 4200
-F 0 "#PWR01" H 2200 3950 50  0001 C CNN
-F 1 "GND" H 2205 4027 50  0000 C CNN
-F 2 "" H 2200 4200 50  0001 C CNN
-F 3 "" H 2200 4200 50  0001 C CNN
-	1    2200 4200
-	1    0    0    -1  
-$EndComp
-$Comp
-L Jumper:SolderJumper_2_Bridged JP1
-U 1 1 5D61A3F4
-P 3700 1800
-F 0 "JP1" H 3700 2005 50  0000 C CNN
-F 1 "SolderJumper_2_Bridged" H 3700 1914 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" H 3700 1800 50  0001 C CNN
-F 3 "~" H 3700 1800 50  0001 C CNN
-	1    3700 1800
-	1    0    0    -1  
-$EndComp
 $Sheet
 S 8700 3500 1100 600 
 U 5D61D488
@@ -97,4 +26,37 @@ U 5D61E7C2
 F0 "DAC" 50
 F1 "DAC.sch" 50
 $EndSheet
+$Comp
+L Mechanical:Housing N1
+U 1 1 5D85575A
+P 9950 1450
+F 0 "N1" H 10103 1484 50  0000 L CNN
+F 1 "Housing" H 10103 1393 50  0000 L CNN
+F 2 "STM_Custom_Lib:Hammond_1455L1601" H 10000 1500 50  0001 C CNN
+F 3 "~" H 10000 1500 50  0001 C CNN
+	1    9950 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:DB25_Male_MountingHoles J2
+U 1 1 5D869ED2
+P 1550 2500
+F 0 "J2" H 1468 3992 50  0000 C CNN
+F 1 "DB25_Male_MountingHoles" H 1468 3901 50  0000 C CNN
+F 2 "Connector_Dsub:DSUB-25_Female_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 1550 2500 50  0001 C CNN
+F 3 " ~" H 1550 2500 50  0001 C CNN
+	1    1550 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Driver_Motor:Pololu_Breakout_A4988 A1
+U 1 1 5D86EADE
+P 5200 2900
+F 0 "A1" H 5250 3781 50  0000 C CNN
+F 1 "Pololu_Breakout_A4988" H 5250 3690 50  0000 C CNN
+F 2 "Module:Pololu_Breakout-16_15.2x20.3mm" H 5475 2150 50  0001 L CNN
+F 3 "https://www.pololu.com/product/2980/pictures" H 5300 2600 50  0001 C CNN
+	1    5200 2900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
