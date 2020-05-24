@@ -1,10 +1,9 @@
 EESchema Schematic File Version 4
-LIBS:Mainboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 2 9
 Title ""
 Date ""
 Rev ""
@@ -365,17 +364,6 @@ F 2 "" H 7450 4900 50  0001 C CNN
 F 3 "" H 7450 4900 50  0001 C CNN
 	1    7450 4900
 	1    0    0    -1  
-$EndComp
-$Comp
-L Connector:Conn_Coaxial J1
-U 1 1 5D6A7FCD
-P 2750 3100
-F 0 "J1" H 2678 3338 50  0000 C CNN
-F 1 "Conn_Coaxial" H 2678 3247 50  0000 C CNN
-F 2 "Connector_Coaxial:SMA_Amphenol_132203-12_Horizontal" H 2750 3100 50  0001 C CNN
-F 3 " ~" H 2750 3100 50  0001 C CNN
-	1    2750 3100
-	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	2750 3300 2750 4500

@@ -1,0 +1,21 @@
+# ADC Selection
+
+Architecture: SAR, because Delta-Sigma has a large latency ->  Bad control loop behaviour
+
+
+# Supply
+
++/- 15V Tunneling Amp and Analog Circuitry
+        10 mA Tunneling Amp
++/- 20V Piezo driver
+5V/3,3V Digital supply
+???     Stepper driver voltage
+
+LM75 Temperature Sensors
+  - One near the transformators
+  - One near the regulators
+  - ADC Board
+  - DAC Board
+  - DAC Board OP section
+
+

@@ -1,0 +1,20 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AD8676
+D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
+K dual opamp
+F https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063
+$ENDCMP
+#
+$CMP LT1469
+D Dual Operational Amplifiers, DIP-8/SOIC-8/TSSOP-8/VSSOP-8
+K dual opamp
+F http://www.ti.com/lit/ds/symlink/lm358.pdf
+$ENDCMP
+#
+$CMP LTC2326-16
+D 16-bit Analog to Digital Converter, 3V supply, 150ksps, SPI interface
+F https://www.analog.com/media/en/technical-documentation/data-sheets/18645lfs.pdf
+$ENDCMP
+#
+#End Doc Library
