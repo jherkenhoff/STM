@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 7 9
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -73,4 +73,12 @@ Text HLabel 5300 2450 2    50   BiDi ~ 0
 GND
 Wire Wire Line
 	5300 2450 5150 2450
+Text HLabel 7050 2500 0    50   BiDi ~ 0
+GND
+Wire Wire Line
+	7050 2500 7200 2500
+Text HLabel 8450 2500 2    50   BiDi ~ 0
+GND
+Wire Wire Line
+	8450 2500 8300 2500
 $EndSCHEMATC

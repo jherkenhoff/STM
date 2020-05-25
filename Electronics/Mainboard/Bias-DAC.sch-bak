@@ -1,0 +1,82 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 11 12
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 6050 3300 0    50   Input ~ 0
+MOSI
+Text HLabel 6050 3400 0    50   Input ~ 0
+CLK
+Text HLabel 6050 3500 0    50   Output ~ 0
+MISO
+Text HLabel 6050 3600 0    50   Input ~ 0
+~CS-Bias
+Text HLabel 6050 3700 0    50   Input ~ 0
+~LDAC
+Text HLabel 6050 3000 0    50   Input ~ 0
+REF_P
+Text HLabel 6050 3100 0    50   Input ~ 0
+REF_N
+Wire Wire Line
+	6950 3550 7400 3550
+$Sheet
+S 6150 2900 800  1200
+U 5F11C2AA
+F0 "sheet5F11C287" 50
+F1 "Single-DAC.sch" 50
+F2 "REF_P" I L 6150 3000 50 
+F3 "REF_N" I L 6150 3100 50 
+F4 "SDIN" I L 6150 3300 50 
+F5 "SCLK" I L 6150 3400 50 
+F6 "SDO" I L 6150 3500 50 
+F7 "OUT" O R 6950 3550 50 
+F8 "~CS" I L 6150 3600 50 
+F9 "~LDAC" I L 6150 3700 50 
+F10 "+15V" I R 6950 3000 50 
+F11 "-15V" I R 6950 3100 50 
+F12 "3V3" I R 6950 3200 50 
+F13 "GND" B R 6950 3300 50 
+$EndSheet
+Wire Wire Line
+	6950 3300 7050 3300
+Text HLabel 7050 3300 2    50   BiDi ~ 0
+GND
+Wire Wire Line
+	6950 3200 7050 3200
+Wire Wire Line
+	7050 3100 6950 3100
+Wire Wire Line
+	6950 3000 7050 3000
+Text HLabel 7050 3000 2    50   Input ~ 0
++15V
+Text HLabel 7050 3100 2    50   Input ~ 0
+-15V
+Text HLabel 7050 3200 2    50   Input ~ 0
+3V3
+Text HLabel 7400 3550 2    50   Output ~ 0
+Bias
+Wire Wire Line
+	6050 3300 6150 3300
+Wire Wire Line
+	6050 3400 6150 3400
+Wire Wire Line
+	6050 3500 6150 3500
+Wire Wire Line
+	6050 3600 6150 3600
+Wire Wire Line
+	6050 3700 6150 3700
+Wire Wire Line
+	6050 3000 6150 3000
+Wire Wire Line
+	6050 3100 6150 3100
+$EndSCHEMATC
