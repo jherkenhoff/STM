@@ -17,4 +17,19 @@ D 16-bit Analog to Digital Converter, 3V supply, 150ksps, SPI interface
 F https://www.analog.com/media/en/technical-documentation/data-sheets/18645lfs.pdf
 $ENDCMP
 #
+$CMP LTC2336-18
+D 18-Bit, 250ksps, ±10.24VTrue Bipolar, Fully Differential Input ADC with 100dB SNR
+F https://www.analog.com/media/en/technical-documentation/data-sheets/233618fa.pdf
+$ENDCMP
+#
+$CMP LTC2337-18
+D 18-Bit, 500ksps, ±10.24VTrue Bipolar, Fully Differential Input ADC with 100dB SNR
+F https://www.analog.com/media/en/technical-documentation/data-sheets/233718fa.pdf
+$ENDCMP
+#
+$CMP LTC2338-18
+D 8-Bit, 1Msps, ±10.24VTrue Bipolar, Fully Differential Input ADC with 100dB SNR
+F https://www.analog.com/media/en/technical-documentation/data-sheets/233818fa.pdf
+$ENDCMP
+#
 #End Doc Library
