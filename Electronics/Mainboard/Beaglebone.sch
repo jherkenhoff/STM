@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 11
+Sheet 2 11
 Title ""
 Date ""
 Rev ""
@@ -81,4 +81,30 @@ Text HLabel 8450 2500 2    50   BiDi ~ 0
 GND
 Wire Wire Line
 	8450 2500 8300 2500
+Text HLabel 10100 4750 2    50   Output ~ 0
+ADC_CLK
+Text HLabel 10100 4850 2    50   Output ~ 0
+ADC_MOSI
+Text HLabel 10100 4950 2    50   Input ~ 0
+ADC_MISO
+Text HLabel 10100 3650 2    50   Output ~ 0
+DAC_CLK
+Text HLabel 10100 3750 2    50   Output ~ 0
+DAC_MOSI
+Text HLabel 10100 3850 2    50   Input ~ 0
+DAC_MISO
+Text HLabel 10100 3950 2    50   Output ~ 0
+~DAC_LDAC
+Text HLabel 10100 4050 2    50   Output ~ 0
+~DAC_CS-X
+Text HLabel 10100 4150 2    50   Output ~ 0
+~DAC_CS-Y
+Text HLabel 10100 4250 2    50   Output ~ 0
+~DAC_CS-Z
+Text HLabel 10100 4350 2    50   Output ~ 0
+~DAC_CS-Bias
+Text HLabel 10100 5050 2    50   Input ~ 0
+ADC_BUSY
+Text HLabel 10100 5150 2    50   Output ~ 0
+ADC_CONV
 $EndSCHEMATC
