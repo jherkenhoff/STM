@@ -68,17 +68,6 @@ Wire Wire Line
 Wire Wire Line
 	2250 4650 3100 4650
 $Comp
-L Connector:TestPoint TP1
-U 1 1 5EDB0C69
-P 2450 1150
-F 0 "TP1" H 2508 1268 50  0001 L CNN
-F 1 "TestPoint" H 2508 1177 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 2650 1150 50  0001 C CNN
-F 3 "~" H 2650 1150 50  0001 C CNN
-	1    2450 1150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP_Small C77
 U 1 1 5EDB2AC5
 P 2400 1450

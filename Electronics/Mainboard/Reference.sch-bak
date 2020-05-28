@@ -101,17 +101,6 @@ Wire Wire Line
 Wire Wire Line
 	6100 2400 6100 2300
 $Comp
-L Connector:Conn_Coaxial J5
-U 1 1 5F1A47C7
-P 4050 2450
-F 0 "J5" H 4150 2425 50  0000 L CNN
-F 1 "Conn_Coaxial" H 4150 2334 50  0000 L CNN
-F 2 "Connector_Coaxial:SMB_Jack_Vertical" H 4050 2450 50  0001 C CNN
-F 3 " ~" H 4050 2450 50  0001 C CNN
-	1    4050 2450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Reference_Voltage:ADR4550 U20
 U 1 1 5F1ADF19
 P 2450 2800
@@ -211,19 +200,7 @@ Wire Wire Line
 Wire Wire Line
 	3600 3200 2900 3200
 Connection ~ 2900 3200
-Wire Wire Line
-	3600 2800 3800 2800
 Connection ~ 3600 2800
-Wire Wire Line
-	3850 2450 3800 2450
-Wire Wire Line
-	3800 2450 3800 2800
-Wire Wire Line
-	3600 3200 4050 3200
-Wire Wire Line
-	4050 3200 4050 2650
-Connection ~ 3600 3200
-Connection ~ 3800 2800
 $Comp
 L Device:R R?
 U 1 1 5F1E0281
@@ -435,8 +412,6 @@ Wire Wire Line
 Wire Wire Line
 	7100 3400 7100 3650
 Connection ~ 7100 3650
-Wire Wire Line
-	3800 2800 4800 2800
 Wire Wire Line
 	4800 2800 4800 3850
 Connection ~ 4800 2800
@@ -747,4 +722,21 @@ F 3 "~" H 5850 3850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5650 3850 5650 3950
+Text Notes 2350 2250 0    50   ~ 0
+Pin compatible references:\nADR435\nADR445
+Wire Wire Line
+	3600 2800 4800 2800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F2E4DA1
+P 3600 2700
+F 0 "TP?" H 3658 2818 50  0001 L CNN
+F 1 "TestPoint" H 3658 2727 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3800 2700 50  0001 C CNN
+F 3 "~" H 3800 2700 50  0001 C CNN
+	1    3600 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 2700 3600 2800
 $EndSCHEMATC
