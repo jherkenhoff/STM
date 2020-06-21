@@ -51,9 +51,9 @@ Text HLabel 2300 3950 0    50   Input ~ 0
 digital_5V_in
 Text HLabel 2650 3350 2    50   Output ~ 0
 digital_3V3
-Text HLabel 2650 3650 2    50   Output ~ 0
+Text HLabel 3250 3650 2    50   Output ~ 0
 digital_gnd
-Text HLabel 2650 3950 2    50   Output ~ 0
+Text HLabel 3250 3950 2    50   Output ~ 0
 digital_5V
 Text HLabel 2250 4500 0    50   Input ~ 0
 stepper_9V_in
@@ -158,7 +158,7 @@ $EndComp
 Wire Wire Line
 	2650 3350 2400 3350
 Wire Wire Line
-	2650 3650 2400 3650
+	3250 3650 3000 3650
 Wire Wire Line
 	2300 3950 2400 3950
 $Comp
@@ -189,7 +189,7 @@ Wire Wire Line
 	2400 3900 2400 3950
 Connection ~ 2400 3950
 Wire Wire Line
-	2400 3950 2650 3950
+	2400 3950 3000 3950
 $Comp
 L Device:CP_Small C82
 U 1 1 5EDC9FC1
@@ -200,6 +200,28 @@ F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 2400 3800 50  0001 C CNN
 F 3 "~" H 2400 3800 50  0001 C CNN
 F 4 "493-1042-ND" H 2400 3800 50  0001 C CNN "Digikey"
 	1    2400 3800
-	1    0    0    -1  
+	-1   0    0    1   
 $EndComp
+$Comp
+L Device:CP_Small C121
+U 1 1 5EFE479A
+P 3000 3800
+F 0 "C121" H 3088 3846 50  0000 L CNN
+F 1 "330u 16V" H 3088 3755 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 3000 3800 50  0001 C CNN
+F 3 "~" H 3000 3800 50  0001 C CNN
+F 4 "493-1042-ND" H 3000 3800 50  0001 C CNN "Digikey"
+	1    3000 3800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 3900 3000 3950
+Connection ~ 3000 3950
+Wire Wire Line
+	3000 3950 3250 3950
+Wire Wire Line
+	3000 3700 3000 3650
+Connection ~ 3000 3650
+Wire Wire Line
+	3000 3650 2400 3650
 $EndSCHEMATC
