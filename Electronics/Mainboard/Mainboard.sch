@@ -625,9 +625,9 @@ Wire Wire Line
 	9900 4050 10150 4050
 Wire Wire Line
 	10150 4250 9900 4250
-Text Label 9900 3550 2    50   ~ 0
-+15V
 Text Label 9900 3650 2    50   ~ 0
++15V
+Text Label 9900 3550 2    50   ~ 0
 -15V
 Text Label 9900 3850 2    50   ~ 0
 Bias
