@@ -81,30 +81,68 @@ Text HLabel 8450 2500 2    50   BiDi ~ 0
 GND
 Wire Wire Line
 	8450 2500 8300 2500
-Text HLabel 10100 4750 2    50   Output ~ 0
+Text HLabel 3850 3750 0    50   Output ~ 0
 ADC_CLK
-Text HLabel 10100 4850 2    50   Output ~ 0
+Text HLabel 5350 3850 2    50   Output ~ 0
 ADC_MOSI
-Text HLabel 10100 4950 2    50   Input ~ 0
+Text HLabel 3850 3650 0    50   Input ~ 0
 ADC_MISO
-Text HLabel 10100 3650 2    50   Output ~ 0
+Text HLabel 8500 4500 2    50   Output ~ 0
 DAC_CLK
-Text HLabel 10100 3750 2    50   Output ~ 0
+Text HLabel 8500 4700 2    50   Output ~ 0
 DAC_MOSI
-Text HLabel 10100 3850 2    50   Input ~ 0
+Text HLabel 8500 4600 2    50   Input ~ 0
 DAC_MISO
-Text HLabel 10100 3950 2    50   Output ~ 0
+Text HLabel 8500 4400 2    50   Output ~ 0
 ~DAC_LDAC
-Text HLabel 10100 4050 2    50   Output ~ 0
+Text HLabel 7000 4700 0    50   Output ~ 0
 ~DAC_CS-X
-Text HLabel 10100 4150 2    50   Output ~ 0
+Text HLabel 7000 4500 0    50   Output ~ 0
 ~DAC_CS-Y
-Text HLabel 10100 4250 2    50   Output ~ 0
+Text HLabel 7000 4600 0    50   Output ~ 0
 ~DAC_CS-Z
-Text HLabel 10100 4350 2    50   Output ~ 0
+Text HLabel 7000 4400 0    50   Output ~ 0
 ~DAC_CS-Bias
-Text HLabel 10100 5050 2    50   Input ~ 0
+Text HLabel 3850 3850 0    50   Input ~ 0
 ADC_BUSY
-Text HLabel 10100 5150 2    50   Output ~ 0
+Text HLabel 3850 3950 0    50   Output ~ 0
 ADC_CONV
+Wire Wire Line
+	7200 4700 7000 4700
+Wire Wire Line
+	8500 4600 8300 4600
+Wire Wire Line
+	8500 4700 8300 4700
+Wire Wire Line
+	8500 4400 8300 4400
+Wire Wire Line
+	8500 4500 8300 4500
+Wire Wire Line
+	7000 4400 7200 4400
+Wire Wire Line
+	7000 4500 7200 4500
+Wire Wire Line
+	7000 4600 7200 4600
+Text HLabel 8500 3800 2    50   Output ~ 0
+~Motor-Enable
+Text HLabel 7000 3800 0    50   Output ~ 0
+Motor-Dir
+Text HLabel 7000 3900 0    50   Output ~ 0
+Motor-Step
+Wire Wire Line
+	8500 3800 8300 3800
+Wire Wire Line
+	7000 3900 7200 3900
+Wire Wire Line
+	7000 3800 7200 3800
+Wire Wire Line
+	3850 3650 4050 3650
+Wire Wire Line
+	3850 3750 4050 3750
+Wire Wire Line
+	3850 3850 4050 3850
+Wire Wire Line
+	3850 3950 4050 3950
+Wire Wire Line
+	5350 3850 5150 3850
 $EndSCHEMATC
