@@ -727,10 +727,10 @@ Pin compatible references:\nADR435\nADR445
 Wire Wire Line
 	3600 2800 4800 2800
 $Comp
-L Connector:TestPoint TP?
+L Connector:TestPoint TP6
 U 1 1 5F2E4DA1
 P 3600 2700
-F 0 "TP?" H 3658 2818 50  0001 L CNN
+F 0 "TP6" H 3658 2818 50  0001 L CNN
 F 1 "TestPoint" H 3658 2727 50  0001 L CNN
 F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 3800 2700 50  0001 C CNN
 F 3 "~" H 3800 2700 50  0001 C CNN

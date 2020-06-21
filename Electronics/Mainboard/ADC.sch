@@ -791,4 +791,17 @@ F 3 "~" H 3700 4500 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3400 4500 3100 4500
+$Comp
+L Connector:TestPoint TP1
+U 1 1 5ED571C5
+P 7450 1200
+F 0 "TP1" H 7508 1318 50  0000 L CNN
+F 1 "TestPoint" H 7508 1227 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 7650 1200 50  0001 C CNN
+F 3 "~" H 7650 1200 50  0001 C CNN
+	1    7450 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 1350 7450 1200
 $EndSCHEMATC

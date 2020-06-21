@@ -61,4 +61,16 @@ Wire Wire Line
 	6450 4200 6300 4200
 Wire Wire Line
 	6450 4300 6300 4300
+Wire Wire Line
+	5400 4000 5300 4000
+Wire Wire Line
+	5300 4100 5400 4100
+Wire Wire Line
+	5400 4200 5300 4200
+Text HLabel 5300 4000 0    50   Input ~ 0
+~ENABLE
+Text HLabel 5300 4100 0    50   Input ~ 0
+STEP
+Text HLabel 5300 4200 0    50   Input ~ 0
+DIR
 $EndSCHEMATC

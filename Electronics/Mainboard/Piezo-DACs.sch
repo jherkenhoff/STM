@@ -84,8 +84,6 @@ Wire Wire Line
 	7850 4350 7750 4350
 Wire Wire Line
 	7850 4100 7750 4100
-Wire Wire Line
-	9450 4450 9600 4450
 $Comp
 L Device:R R18
 U 1 1 5D6CB65A
@@ -97,8 +95,6 @@ F 3 "~" H 9300 5550 50  0001 C CNN
 	1    9300 5550
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	9450 5550 9600 5550
 Wire Wire Line
 	8950 1750 9050 1750
 Wire Wire Line
@@ -1065,34 +1061,31 @@ Text HLabel 2350 4100 0    50   Input ~ 0
 ~CS-Y
 Text HLabel 2350 5600 0    50   Input ~ 0
 ~CS-Z
+Wire Wire Line
+	10200 1750 10300 1750
+Wire Wire Line
+	10200 2850 10300 2850
+Wire Wire Line
+	10200 4450 10300 4450
+Wire Wire Line
+	9450 4450 9600 4450
+Wire Wire Line
+	10200 5550 10300 5550
+Wire Wire Line
+	9450 5550 9600 5550
 $Comp
 L Device:Jumper JP?
-U 1 1 5F0BEDA9
-P 9900 1750
-AR Path="/5D61E7C2/5DAA6516/5F0BEDA9" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5ECB9506/5F0BEDA9" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5EEC97A0/5F0BEDA9" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5F0BEDA9" Ref="JP6"  Part="1" 
-F 0 "JP6" H 9900 1923 50  0000 C CNN
-F 1 "Jumper" H 9900 1923 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 1750 50  0001 C CNN
-F 3 "~" H 9900 1750 50  0001 C CNN
-	1    9900 1750
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Jumper JP?
-U 1 1 5F0C9025
-P 9900 2850
-AR Path="/5D61E7C2/5DAA6516/5F0C9025" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5ECB9506/5F0C9025" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5EEC97A0/5F0C9025" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5F0C9025" Ref="JP7"  Part="1" 
-F 0 "JP7" H 9900 3023 50  0000 C CNN
-F 1 "Jumper" H 9900 3023 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 2850 50  0001 C CNN
-F 3 "~" H 9900 2850 50  0001 C CNN
-	1    9900 2850
+U 1 1 5F0DDD6A
+P 9900 5550
+AR Path="/5D61E7C2/5DAA6516/5F0DDD6A" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5ECB9506/5F0DDD6A" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5EEC97A0/5F0DDD6A" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5F0DDD6A" Ref="JP9"  Part="1" 
+F 0 "JP9" H 9900 5723 50  0000 C CNN
+F 1 "Jumper" H 9900 5723 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 5550 50  0001 C CNN
+F 3 "~" H 9900 5550 50  0001 C CNN
+	1    9900 5550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1112,25 +1105,32 @@ F 3 "~" H 9900 4450 50  0001 C CNN
 $EndComp
 $Comp
 L Device:Jumper JP?
-U 1 1 5F0DDD6A
-P 9900 5550
-AR Path="/5D61E7C2/5DAA6516/5F0DDD6A" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5ECB9506/5F0DDD6A" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5EEC97A0/5F0DDD6A" Ref="JP?"  Part="1" 
-AR Path="/5D61E7C2/5F0DDD6A" Ref="JP9"  Part="1" 
-F 0 "JP9" H 9900 5723 50  0000 C CNN
-F 1 "Jumper" H 9900 5723 50  0001 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 5550 50  0001 C CNN
-F 3 "~" H 9900 5550 50  0001 C CNN
-	1    9900 5550
+U 1 1 5F0C9025
+P 9900 2850
+AR Path="/5D61E7C2/5DAA6516/5F0C9025" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5ECB9506/5F0C9025" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5EEC97A0/5F0C9025" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5F0C9025" Ref="JP7"  Part="1" 
+F 0 "JP7" H 9900 3023 50  0000 C CNN
+F 1 "Jumper" H 9900 3023 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 2850 50  0001 C CNN
+F 3 "~" H 9900 2850 50  0001 C CNN
+	1    9900 2850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10200 1750 10300 1750
-Wire Wire Line
-	10200 2850 10300 2850
-Wire Wire Line
-	10200 4450 10300 4450
-Wire Wire Line
-	10200 5550 10300 5550
+$Comp
+L Device:Jumper JP?
+U 1 1 5F0BEDA9
+P 9900 1750
+AR Path="/5D61E7C2/5DAA6516/5F0BEDA9" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5ECB9506/5F0BEDA9" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5EEC97A0/5F0BEDA9" Ref="JP?"  Part="1" 
+AR Path="/5D61E7C2/5F0BEDA9" Ref="JP6"  Part="1" 
+F 0 "JP6" H 9900 1923 50  0000 C CNN
+F 1 "Jumper" H 9900 1923 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 9900 1750 50  0001 C CNN
+F 3 "~" H 9900 1750 50  0001 C CNN
+	1    9900 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
