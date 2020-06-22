@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Mechanical:Housing N1
 U 1 1 5D85575A
-P 15950 1700
-F 0 "N1" H 16103 1734 50  0000 L CNN
-F 1 "Housing" H 16103 1643 50  0000 L CNN
-F 2 "STM_Custom_Lib:Hammond_1455P1601" H 16000 1750 50  0001 C CNN
-F 3 "https://www.reichelt.de/profilgehaeuse-1455-p-160-x-120-x-30-5-mm-silber-1455p1601-p221381.html?&trstct=pol_6" H 16000 1750 50  0001 C CNN
-	1    15950 1700
+P 950 7250
+F 0 "N1" H 1103 7284 50  0000 L CNN
+F 1 "Housing" H 1103 7193 50  0000 L CNN
+F 2 "STM_Custom_Lib:Hammond_1455P1601" H 1000 7300 50  0001 C CNN
+F 3 "https://www.reichelt.de/profilgehaeuse-1455-p-160-x-120-x-30-5-mm-silber-1455p1601-p221381.html?&trstct=pol_6" H 1000 7300 50  0001 C CNN
+	1    950  7250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -47,25 +47,14 @@ F 4 "609-5192-ND " H 10450 1550 50  0001 C CNN "Digikey"
 	1    10450 1550
 	1    0    0    -1  
 $EndComp
-$Comp
-L Sensor_Temperature:LM75C U14
-U 1 1 5EB6D473
-P 14350 1800
-F 0 "U14" H 14350 2481 50  0000 C CNN
-F 1 "LM75C" H 14350 2390 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 14350 1800 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 14350 1800 50  0001 C CNN
-	1    14350 1800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	14750 1800 14850 1800
+	5750 6600 5850 6600
 Wire Wire Line
-	14850 1800 14850 1900
+	5850 6600 5850 6700
 Wire Wire Line
-	14850 1900 14750 1900
+	5850 6700 5750 6700
 Wire Wire Line
-	14750 1700 14850 1700
+	5750 6500 5850 6500
 Wire Wire Line
 	10150 1150 10000 1150
 Wire Wire Line
@@ -113,6 +102,9 @@ F16 "ADC_CONV" O L 4950 4500 50
 F17 "~Motor-Enable" O R 6400 4900 50 
 F18 "Motor-Dir" O R 6400 5100 50 
 F19 "Motor-Step" O R 6400 5000 50 
+F20 "3V3" O L 4950 2800 50 
+F21 "SDA" B L 4950 5000 50 
+F22 "SCL" O L 4950 5100 50 
 $EndSheet
 Wire Wire Line
 	1650 1200 1750 1200
@@ -226,8 +218,6 @@ F 4 "609-5192-ND " H 9350 5200 50  0001 C CNN "Digikey"
 	1    9350 5200
 	1    0    0    -1  
 $EndComp
-Text Notes 13800 3350 0    71   ~ 0
-TODO: Analog Volotage on connector for preamp...
 Wire Wire Line
 	1750 1200 2150 1200
 Wire Wire Line
@@ -296,8 +286,6 @@ $EndSheet
 Wire Wire Line
 	3500 3050 3750 3050
 Wire Wire Line
-	3500 2500 3750 2500
-Wire Wire Line
 	3500 1900 3750 1900
 Wire Wire Line
 	3500 2100 3750 2100
@@ -320,7 +308,7 @@ Text Label 3750 3150 0    50   ~ 0
 GND
 Text Label 3750 3050 0    50   ~ 0
 9V
-Text Label 3750 2500 0    50   ~ 0
+Text Label 4450 2050 0    50   ~ 0
 3V3
 Text Label 3750 2100 0    50   ~ 0
 -20V
@@ -725,4 +713,159 @@ Wire Wire Line
 	6950 5500 7600 5500
 Text Label 4200 2600 0    50   ~ 0
 5V
+$Comp
+L Device:Jumper_NC_Dual JP11
+U 1 1 5EFF93DD
+P 4350 2300
+F 0 "JP11" H 4350 2447 50  0001 C CNN
+F 1 "Jumper_NC_Dual" H 4350 2538 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P2.0mm_Open_TrianglePad1.0x1.5mm" H 4350 2300 50  0001 C CNN
+F 3 "~" H 4350 2300 50  0001 C CNN
+	1    4350 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4450 2050 4350 2050
+Wire Wire Line
+	4350 2050 4350 2200
+Wire Wire Line
+	4600 2300 4750 2300
+Wire Wire Line
+	4750 2300 4750 2800
+Wire Wire Line
+	4750 2800 4950 2800
+Wire Wire Line
+	4100 2300 4000 2300
+Wire Wire Line
+	4000 2300 4000 2500
+Wire Wire Line
+	3500 2500 4000 2500
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F0439CF
+P 4400 1900
+AR Path="/5EE4ADA7/5F0439CF" Ref="TP?"  Part="1" 
+AR Path="/5ED66353/5F0439CF" Ref="TP?"  Part="1" 
+AR Path="/5F0439CF" Ref="TP11"  Part="1" 
+F 0 "TP11" H 4458 2018 50  0001 L CNN
+F 1 "TestPoint" H 4458 1927 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 4600 1900 50  0001 C CNN
+F 3 "~" H 4600 1900 50  0001 C CNN
+	1    4400 1900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4400 1900 4350 1900
+Wire Wire Line
+	4350 1900 4350 2050
+Connection ~ 4350 2050
+Text Label 1350 900  1    50   ~ 0
+Shield
+Wire Wire Line
+	5350 7100 5350 7200
+Wire Wire Line
+	5850 6700 5850 7200
+Wire Wire Line
+	5850 7200 5350 7200
+Connection ~ 5850 6700
+Wire Wire Line
+	5850 6500 5850 6000
+Wire Wire Line
+	5850 6000 5350 6000
+Wire Wire Line
+	5350 6000 5350 6100
+Wire Wire Line
+	5850 6000 6050 6000
+Connection ~ 5850 6000
+Wire Wire Line
+	5850 7200 6050 7200
+Connection ~ 5850 7200
+Text Label 6150 7200 0    50   ~ 0
+GND
+Text Label 6150 6000 0    50   ~ 0
+3V3
+$Comp
+L Device:C C?
+U 1 1 5F13F70B
+P 6050 6600
+AR Path="/5D61E7C2/5DA22D82/5F13F70B" Ref="C?"  Part="1" 
+AR Path="/5D61E7C2/5DAA3250/5F13F70B" Ref="C?"  Part="1" 
+AR Path="/5D61E7C2/5DAA6516/5F13F70B" Ref="C?"  Part="1" 
+AR Path="/5D61E7C2/5DAB2C4D/5F13F70B" Ref="C?"  Part="1" 
+AR Path="/5D61E7C2/5EEC97A0/5F13F70B" Ref="C?"  Part="1" 
+AR Path="/5D61E7C2/5ECB9506/5F13F70B" Ref="C?"  Part="1" 
+AR Path="/5D61E7C2/5F13F70B" Ref="C?"  Part="1" 
+AR Path="/5F13F70B" Ref="C138"  Part="1" 
+F 0 "C138" V 6150 6650 50  0000 L CNN
+F 1 "100n" V 6150 6550 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6088 6450 50  0001 C CNN
+F 3 "~" H 6050 6600 50  0001 C CNN
+	1    6050 6600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 6450 6050 6000
+Connection ~ 6050 6000
+Wire Wire Line
+	6050 6000 6150 6000
+Wire Wire Line
+	6050 6750 6050 7200
+Connection ~ 6050 7200
+Wire Wire Line
+	6050 7200 6150 7200
+$Comp
+L Device:R R?
+U 1 1 5F1B9FC8
+P 4600 4800
+AR Path="/5D61E7C2/5F1B9FC8" Ref="R?"  Part="1" 
+AR Path="/5F1B9FC8" Ref="R29"  Part="1" 
+F 0 "R29" V 4500 4700 50  0000 C CNN
+F 1 "4k7" V 4500 4900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 4800 50  0001 C CNN
+F 3 "~" H 4600 4800 50  0001 C CNN
+	1    4600 4800
+	0    1    1    0   
+$EndComp
+Text Label 4350 5100 2    50   ~ 0
+i2c_scl
+Text Label 4350 5000 2    50   ~ 0
+i2c_sda
+Wire Wire Line
+	4350 5100 4950 5100
+Wire Wire Line
+	4950 5000 4800 5000
+Wire Wire Line
+	4750 4800 4800 4800
+Wire Wire Line
+	4800 4800 4800 5000
+Connection ~ 4800 5000
+Wire Wire Line
+	4800 5000 4350 5000
+Wire Wire Line
+	4450 4800 4350 4800
+Text Label 4350 4800 2    50   ~ 0
+3V3
+$Comp
+L Sensor_Temperature:LM75C U14
+U 1 1 5EB6D473
+P 5350 6600
+F 0 "U14" H 4850 6300 50  0000 C CNN
+F 1 "LM75C" H 4850 6200 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5350 6600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 5350 6600 50  0001 C CNN
+	1    5350 6600
+	1    0    0    -1  
+$EndComp
+Text Label 4800 6600 2    50   ~ 0
+i2c_scl
+Text Label 4800 6500 2    50   ~ 0
+i2c_sda
+Wire Wire Line
+	4950 6500 4800 6500
+Wire Wire Line
+	4950 6600 4800 6600
+Text Label 1750 3400 0    50   ~ 0
+i2c_scl
+Text Label 1750 3600 0    50   ~ 0
+i2c_sda
 $EndSCHEMATC

@@ -145,4 +145,16 @@ Wire Wire Line
 	3850 3950 4050 3950
 Wire Wire Line
 	5350 3850 5150 3850
+Text HLabel 3900 2550 0    50   Output ~ 0
+3V3
+Wire Wire Line
+	3900 2550 4050 2550
+Text HLabel 5350 3350 2    50   BiDi ~ 0
+SDA
+Text HLabel 3850 3350 0    50   Output ~ 0
+SCL
+Wire Wire Line
+	3850 3350 4050 3350
+Wire Wire Line
+	5350 3350 5150 3350
 $EndSCHEMATC

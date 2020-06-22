@@ -683,7 +683,7 @@ U 1 1 5F26F460
 P 7250 2600
 F 0 "TP4" H 7308 2718 50  0001 L CNN
 F 1 "TestPoint" H 7308 2627 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7450 2600 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7450 2600 50  0001 C CNN
 F 3 "~" H 7450 2600 50  0001 C CNN
 	1    7250 2600
 	1    0    0    -1  
@@ -699,7 +699,7 @@ U 1 1 5F279972
 P 7250 3950
 F 0 "TP5" H 7308 4068 50  0001 L CNN
 F 1 "TestPoint" H 7308 3977 50  0001 L CNN
-F 2 "TestPoint:TestPoint_Loop_D1.80mm_Drill1.0mm_Beaded" H 7450 3950 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_D2.0mm" H 7450 3950 50  0001 C CNN
 F 3 "~" H 7450 3950 50  0001 C CNN
 	1    7250 3950
 	1    0    0    -1  
