@@ -16,12 +16,12 @@ $EndDescr
 $Comp
 L Mechanical:Housing N1
 U 1 1 5D85575A
-P 1000 7450
-F 0 "N1" H 1153 7484 50  0000 L CNN
-F 1 "Housing" H 1153 7393 50  0000 L CNN
-F 2 "STM_Custom_Lib:Hammond_1455P1601" H 1050 7500 50  0001 C CNN
-F 3 "https://www.reichelt.de/profilgehaeuse-1455-p-160-x-120-x-30-5-mm-silber-1455p1601-p221381.html?&trstct=pol_6" H 1050 7500 50  0001 C CNN
-	1    1000 7450
+P 1500 7150
+F 0 "N1" H 1653 7184 50  0000 L CNN
+F 1 "Housing" H 1653 7093 50  0000 L CNN
+F 2 "STM_Custom_Lib:Hammond_1455P1601" H 1550 7200 50  0001 C CNN
+F 3 "https://www.reichelt.de/profilgehaeuse-1455-p-160-x-120-x-30-5-mm-silber-1455p1601-p221381.html?&trstct=pol_6" H 1550 7200 50  0001 C CNN
+	1    1500 7150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -585,7 +585,7 @@ ADC_IN+
 Text Label 2300 4900 2    50   ~ 0
 ADC_IN-
 Wire Wire Line
-	10200 3750 9950 3750
+	10200 3750 10100 3750
 Wire Wire Line
 	10200 3950 10050 3950
 Wire Wire Line
@@ -606,16 +606,16 @@ Connection ~ 10050 4550
 Wire Wire Line
 	10050 4550 10050 4850
 Wire Wire Line
-	9950 3850 10200 3850
+	9700 3850 9950 3850
 Wire Wire Line
 	10200 4050 9950 4050
 Wire Wire Line
 	9950 4250 10200 4250
 Wire Wire Line
 	10200 4450 9950 4450
-Text Label 9950 3850 2    50   ~ 0
+Text Label 9700 3850 2    50   ~ 0
 +15V
-Text Label 9950 3750 2    50   ~ 0
+Text Label 9700 3750 2    50   ~ 0
 -15V
 Text Label 9950 4050 2    50   ~ 0
 Bias
@@ -800,6 +800,7 @@ F 0 "C138" V 6200 6850 50  0000 L CNN
 F 1 "100n" V 6200 6750 50  0000 R CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6138 6650 50  0001 C CNN
 F 3 "~" H 6100 6800 50  0001 C CNN
+F 4 "C14663" H 6100 6800 50  0001 C CNN "LCSC"
 	1    6100 6800
 	1    0    0    -1  
 $EndComp
@@ -821,8 +822,9 @@ AR Path="/5D61E7C2/5F1B9FC8" Ref="R?"  Part="1"
 AR Path="/5F1B9FC8" Ref="R29"  Part="1" 
 F 0 "R29" V 4550 4900 50  0000 C CNN
 F 1 "4k7" V 4550 5100 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4580 5000 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4580 5000 50  0001 C CNN
 F 3 "~" H 4650 5000 50  0001 C CNN
+F 4 "C17673" H 4650 5000 50  0001 C CNN "LCSC"
 	1    4650 5000
 	0    1    1    0   
 $EndComp
@@ -887,16 +889,17 @@ $EndComp
 $Comp
 L Device:C_Small C139
 U 1 1 5F326529
-P 2400 750
-F 0 "C139" V 2263 750 50  0000 C CNN
-F 1 "C_Small" V 2262 750 50  0001 C CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2400 750 50  0001 C CNN
-F 3 "~" H 2400 750 50  0001 C CNN
-	1    2400 750 
+P 2600 750
+F 0 "C139" V 2463 750 50  0000 C CNN
+F 1 "100n" V 2462 750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 750 50  0001 C CNN
+F 3 "~" H 2600 750 50  0001 C CNN
+F 4 "C24497" H 2600 750 50  0001 C CNN "LCSC"
+	1    2600 750 
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2300 750  2200 750 
+	2500 750  2200 750 
 Wire Wire Line
 	2200 750  2200 900 
 Wire Wire Line
@@ -904,30 +907,109 @@ Wire Wire Line
 $Comp
 L Device:R_Small R30
 U 1 1 5F3363D7
-P 2400 1050
-F 0 "R30" V 2296 1050 50  0000 C CNN
-F 1 "R_Small" V 2295 1050 50  0001 C CNN
-F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2400 1050 50  0001 C CNN
-F 3 "~" H 2400 1050 50  0001 C CNN
-	1    2400 1050
+P 2600 1050
+F 0 "R30" V 2496 1050 50  0000 C CNN
+F 1 "1M2" V 2495 1050 50  0001 C CNN
+F 2 "Resistor_SMD:R_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 2600 1050 50  0001 C CNN
+F 3 "~" H 2600 1050 50  0001 C CNN
+F 4 "C22107" H 2600 1050 50  0001 C CNN "LCSC"
+	1    2600 1050
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2300 1050 2200 1050
+	2500 1050 2200 1050
 Wire Wire Line
 	2200 1050 2200 900 
 Connection ~ 2200 900 
 Wire Wire Line
-	2500 1050 2600 1050
+	2700 1050 3000 1050
 Wire Wire Line
-	2600 1050 2600 900 
+	3000 1050 3000 900 
 Wire Wire Line
-	2600 750  2500 750 
+	3000 750  2700 750 
 Wire Wire Line
-	2600 900  2700 900 
-Connection ~ 2600 900 
+	3000 900  3100 900 
+Connection ~ 3000 900 
 Wire Wire Line
-	2600 900  2600 750 
-Text Label 2700 900  0    50   ~ 0
+	3000 900  3000 750 
+Text Label 3100 900  0    50   ~ 0
 GND
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F1E2DD9
+P 10100 3600
+AR Path="/5D61D488/5F1E2DD9" Ref="TP?"  Part="1" 
+AR Path="/5F1E2DD9" Ref="TP16"  Part="1" 
+F 0 "TP16" H 10100 3800 50  0000 L CNN
+F 1 "TestPoint" H 10158 3627 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10300 3600 50  0001 C CNN
+F 3 "~" H 10300 3600 50  0001 C CNN
+	1    10100 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3600 10100 3750
+Connection ~ 10100 3750
+Wire Wire Line
+	10100 3750 9700 3750
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5F210FA7
+P 9950 3600
+AR Path="/5D61D488/5F210FA7" Ref="TP?"  Part="1" 
+AR Path="/5F210FA7" Ref="TP15"  Part="1" 
+F 0 "TP15" H 9900 3800 50  0000 L CNN
+F 1 "TestPoint" H 10008 3627 50  0001 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 10150 3600 50  0001 C CNN
+F 3 "~" H 10150 3600 50  0001 C CNN
+	1    9950 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 3600 9950 3850
+Connection ~ 9950 3850
+Wire Wire Line
+	9950 3850 10200 3850
+$Comp
+L Graphic:SYM_ESD_Large SYM1
+U 1 1 5F433C50
+P 3550 7150
+F 0 "SYM1" H 3550 7350 50  0001 C CNN
+F 1 "SYM_ESD_Large" H 3550 6900 50  0001 C CNN
+F 2 "Symbol:ESD-Logo_13.2x12mm_SilkScreen" H 3545 7120 50  0001 C CNN
+F 3 "~" H 3545 7120 50  0001 C CNN
+	1    3550 7150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP29
+U 1 1 5F441C4B
+P 2350 300
+F 0 "JP29" H 2350 473 50  0000 C CNN
+F 1 "Jumper" H 2350 473 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 2350 300 50  0001 C CNN
+F 3 "~" H 2350 300 50  0001 C CNN
+	1    2350 300 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 300  1400 300 
+Wire Wire Line
+	1400 300  1400 900 
+Wire Wire Line
+	2650 300  3000 300 
+Wire Wire Line
+	3000 300  3000 750 
+Connection ~ 3000 750 
+$Comp
+L Graphic:Logo_Open_Hardware_Small LOGO1
+U 1 1 5F466E28
+P 2850 7200
+F 0 "LOGO1" H 2850 7475 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 2850 6975 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_24.3x20mm_SilkScreen" H 2850 7200 50  0001 C CNN
+F 3 "~" H 2850 7200 50  0001 C CNN
+	1    2850 7200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
