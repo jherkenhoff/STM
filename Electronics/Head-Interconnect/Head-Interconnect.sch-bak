@@ -394,9 +394,9 @@ Wire Wire Line
 	1950 1900 2450 1900
 Text Label 4050 4250 2    50   ~ 0
 piezo_x-
-Text Label 4050 4350 2    50   ~ 0
+Text Label 5600 4000 2    50   ~ 0
 piezo_y+
-Text Label 4050 4450 2    50   ~ 0
+Text Label 5800 4300 2    50   ~ 0
 piezo_y-
 Text Label 4850 4250 0    50   ~ 0
 piezo_x+
