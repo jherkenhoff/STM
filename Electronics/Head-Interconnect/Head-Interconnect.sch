@@ -166,12 +166,12 @@ $EndComp
 $Comp
 L Connector_Generic_MountingPin:Conn_01x04_MountingPin J4
 U 1 1 5F112DA2
-P 5700 6050
-F 0 "J4" H 5788 5964 50  0000 L CNN
-F 1 "Conn_01x04_MountingPin" H 5788 5873 50  0000 L CNN
-F 2 "Connector_FFC-FPC:TE_84953-4_1x04-1MP_P1.0mm_Horizontal" H 5700 6050 50  0001 C CNN
-F 3 "~" H 5700 6050 50  0001 C CNN
-	1    5700 6050
+P 8050 5900
+F 0 "J4" H 8138 5814 50  0000 L CNN
+F 1 "Conn_01x04_MountingPin" H 8138 5723 50  0000 L CNN
+F 2 "Connector_FFC-FPC:TE_84953-4_1x04-1MP_P1.0mm_Horizontal" H 8050 5900 50  0001 C CNN
+F 3 "~" H 8050 5900 50  0001 C CNN
+	1    8050 5900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -222,12 +222,12 @@ Wire Wire Line
 $Comp
 L Connector:Conn_Coaxial J5
 U 1 1 5F12B036
-P 5150 5800
-F 0 "J5" H 5250 5729 50  0000 L CNN
-F 1 "Conn_Coaxial" H 5250 5684 50  0001 L CNN
-F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 5150 5800 50  0001 C CNN
-F 3 " ~" H 5150 5800 50  0001 C CNN
-	1    5150 5800
+P 7500 5650
+F 0 "J5" H 7600 5579 50  0000 L CNN
+F 1 "Conn_Coaxial" H 7600 5534 50  0001 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 7500 5650 50  0001 C CNN
+F 3 " ~" H 7500 5650 50  0001 C CNN
+	1    7500 5650
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -271,42 +271,39 @@ Wire Wire Line
 	3000 5950 3000 6150
 Connection ~ 3000 6150
 Wire Wire Line
-	2900 6050 4800 6050
+	6700 5900 6850 5900
 Wire Wire Line
 	3000 6150 3950 6150
 Wire Wire Line
-	5500 5950 5400 5950
+	7850 5800 7750 5800
 Wire Wire Line
-	5400 5950 5400 6150
-Connection ~ 5400 6150
+	7750 5800 7750 6000
+Connection ~ 7750 6000
 Wire Wire Line
-	5400 6150 5500 6150
+	7750 6000 7850 6000
 Wire Wire Line
-	5400 6150 5400 6250
+	7750 6000 7750 6100
 Wire Wire Line
-	5400 6250 5500 6250
+	7750 6100 7850 6100
 Wire Wire Line
-	5150 6000 5150 6150
-Connection ~ 5150 6150
+	7500 5850 7500 6100
 Wire Wire Line
-	5150 6150 5400 6150
+	7300 5650 7150 5650
 Wire Wire Line
-	4950 5800 4800 5800
+	7150 5650 7150 5900
+Connection ~ 7150 5900
 Wire Wire Line
-	4800 5800 4800 6050
-Connection ~ 4800 6050
-Wire Wire Line
-	4800 6050 5500 6050
+	7150 5900 7850 5900
 Text Label 3200 6050 0    50   ~ 0
 bias
 Text Label 4950 5200 2    50   ~ 0
-Stepper_A1
+Stepper_A-
 Text Label 4950 5300 2    50   ~ 0
-Stepper_A2
+Stepper_A+
 Text Label 4950 5400 2    50   ~ 0
-Stepper_B1
+Stepper_B+
 Text Label 4950 5500 2    50   ~ 0
-Stepper_B2
+Stepper_B-
 Text Label 3250 5250 0    50   ~ 0
 analog_+15V
 Text Label 3250 5350 0    50   ~ 0
@@ -476,13 +473,13 @@ Wire Wire Line
 Wire Wire Line
 	4950 5500 5050 5500
 Text Label 3250 5850 0    50   ~ 0
-Stepper_A1
+Stepper_A-
 Text Label 3250 5650 0    50   ~ 0
-Stepper_A2
+Stepper_A+
 Text Label 3250 5750 0    50   ~ 0
-Stepper_B1
+Stepper_B+
 Text Label 3250 5550 0    50   ~ 0
-Stepper_B2
+Stepper_B-
 Wire Wire Line
 	3250 5550 2900 5550
 Wire Wire Line
@@ -512,9 +509,8 @@ Wire Wire Line
 	4050 6400 3950 6400
 Wire Wire Line
 	3950 6400 3950 6150
-Connection ~ 3950 6150
 Wire Wire Line
-	3950 6150 5150 6150
+	6700 6100 6850 6100
 $Comp
 L Device:Jumper JP4
 U 1 1 5F243480
@@ -572,4 +568,45 @@ F 4 "A100260TR-ND" H 2700 5150 50  0001 C CNN "Digikey"
 	1    2700 5150
 	-1   0    0    -1  
 $EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5F1041C2
+P 7150 6000
+F 0 "C3" H 7242 6046 50  0000 L CNN
+F 1 "opt" H 7242 5955 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 6000 50  0001 C CNN
+F 3 "~" H 7150 6000 50  0001 C CNN
+	1    7150 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R1
+U 1 1 5F1B34B3
+P 6850 6000
+F 0 "R1" H 6909 6046 50  0000 L CNN
+F 1 "opt" H 6909 5955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6850 6000 50  0001 C CNN
+F 3 "~" H 6850 6000 50  0001 C CNN
+	1    6850 6000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 6050 3200 6050
+Text Label 6700 5900 2    50   ~ 0
+bias
+Text Label 6700 6100 2    50   ~ 0
+bias_gnd
+Wire Wire Line
+	7500 6100 7750 6100
+Connection ~ 7500 6100
+Connection ~ 7750 6100
+Connection ~ 7150 6100
+Wire Wire Line
+	7150 6100 7500 6100
+Connection ~ 6850 5900
+Wire Wire Line
+	6850 5900 7150 5900
+Connection ~ 6850 6100
+Wire Wire Line
+	6850 6100 7150 6100
 $EndSCHEMATC
