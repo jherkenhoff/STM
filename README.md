@@ -3,7 +3,8 @@
 # Table of Contents
 - [Mechanics](#mechanics)
   - [Vibration Isolation](#vibration-isolation)
-  - [Scan Head](#scan-head)
+  - [Piezo Scanner](#piezo-scanner)
+  - [Scan Head Assembly](#scan-head-assembly)
 - [Electronics](#electronics)
 
 # <a name="mechanics"></a>Mechanics
@@ -25,7 +26,19 @@ The complete depicted assembly can optionally be hung from some kind of support 
 
 ![STM Assembly](doc/Assembly.JPG)
 
-### <a name="scan-head"></a>Scan Head
+### <a name="piezo-scanner"></a>Piezo Scanner
+
+### <a name="scan-head-assembly"></a>Scan Head Assembly
+The scan head assembly is the central piece of the STM. It's the place where the piezo scanner, including the scanning probe tip, and the material to be imaged are mounted and brought together, and thus contributes directly the achievable image quality. 
+
+All parts of the scan head assembly have been machined out of brass using a CNC mill. The choice of material is 
+
+- Lowest possible thermal expansion coefficient to reduce gradient artifacts due to thermal fluctuations.
+- Highest possible stiffness in order to achieve a high mechanical resonance frequency of the scan head assembly.
+- The material must not cost a fortune and should be relatively easy to machine without highly specializied equipment.
+
+
+
 ![Scanning head assembly](doc/Scanning-Head.JPG)
 
 # <a name="electronics"></a>Electronics
