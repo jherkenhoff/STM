@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 11
+Sheet 9 11
 Title ""
 Date ""
 Rev ""
@@ -30,6 +30,7 @@ F 0 "U8" H 5100 3850 50  0000 L CNN
 F 1 "AD5781" H 5000 3750 50  0000 L CNN
 F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 4550 3800 50  0001 C CNN
 F 3 "" H 4550 3800 50  0001 C CNN
+F 4 "AD5781ARUZ-ND " H 5150 3750 50  0001 C CNN "Digikey"
 	1    5150 3750
 	1    0    0    -1  
 $EndComp
@@ -445,9 +446,10 @@ AR Path="/5D61E7C2/5ECB9506/5EBF2A39" Ref="U12"  Part="1"
 AR Path="/5EE5BDE4/5F11C2AA/5EBF2A39" Ref="U?"  Part="1" 
 AR Path="/5F11EDFC/5EBF2A39" Ref="U17"  Part="1" 
 F 0 "U9" V 5304 2570 50  0000 R CNN
-F 1 "AD8676xR" V 5395 2570 50  0000 R CNN
+F 1 "AD8676" V 5395 2570 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 2800 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf" H 5600 2950 50  0001 C CNN
+F 4 "AD8676ARZ-ND " H 5350 2800 50  0001 C CNN "Digikey"
 	1    5350 2800
 	0    -1   1    0   
 $EndComp
@@ -463,9 +465,10 @@ AR Path="/5D61E7C2/5ECB9506/5EBF3E04" Ref="U12"  Part="3"
 AR Path="/5EE5BDE4/5F11C2AA/5EBF3E04" Ref="U?"  Part="3" 
 AR Path="/5F11EDFC/5EBF3E04" Ref="U17"  Part="3" 
 F 0 "U9" H 9858 2396 50  0000 L CNN
-F 1 "AD8676xR" H 9858 2305 50  0000 L CNN
+F 1 "AD8676" H 9858 2305 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9900 2350 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf" H 10050 2500 50  0001 C CNN
+F 4 "AD8676ARZ-ND " H 9800 2350 50  0001 C CNN "Digikey"
 	3    9800 2350
 	1    0    0    -1  
 $EndComp
@@ -484,6 +487,7 @@ F 0 "U10" H 6800 3600 50  0000 L CNN
 F 1 "AD8675" H 6750 3500 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6950 4000 50  0001 C CNN
 F 3 "" H 6950 4000 50  0001 C CNN
+F 4 "AD8675ARZ-REEL7CT-ND " H 6750 3750 50  0001 C CNN "Digikey"
 	1    6750 3750
 	1    0    0    -1  
 $EndComp
@@ -705,9 +709,10 @@ AR Path="/5D61E7C2/5ECB9506/5EBF327E" Ref="U12"  Part="2"
 AR Path="/5EE5BDE4/5F11C2AA/5EBF327E" Ref="U?"  Part="2" 
 AR Path="/5F11EDFC/5EBF327E" Ref="U17"  Part="2" 
 F 0 "U9" V 5396 4370 50  0000 R CNN
-F 1 "AD8676xR" V 5305 4370 50  0000 R CNN
+F 1 "AD8676" V 5305 4370 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 4600 50  0001 C CNN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/AD8676.pdf" H 5600 4750 50  0001 C CNN
+F 4 "AD8676ARZ-ND " H 5350 4600 50  0001 C CNN "Digikey"
 	2    5350 4600
 	0    -1   -1   0   
 $EndComp

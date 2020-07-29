@@ -1175,22 +1175,11 @@ $Comp
 L Device:R_Small R16
 U 1 1 5E6AC065
 P 8650 1100
-F 0 "R16" V 8600 950 50  0000 C CNN
-F 1 "10k" V 8650 1050 39  0000 L CNN
+F 0 "R16" V 8750 1100 50  0000 C CNN
+F 1 "2k7" V 8650 1050 39  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8650 1100 50  0001 C CNN
 F 3 "~" H 8650 1100 50  0001 C CNN
 	1    8650 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R_Small R15
-U 1 1 5E6AB696
-P 8550 1100
-F 0 "R15" V 8500 950 50  0000 C CNN
-F 1 "10k" V 8550 1050 39  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 1100 50  0001 C CNN
-F 3 "~" H 8550 1100 50  0001 C CNN
-	1    8550 1100
 	1    0    0    -1  
 $EndComp
 Text Notes 8700 1800 2    50   ~ 0
@@ -1890,4 +1879,15 @@ F 3 "~" H 10200 3250 50  0001 C CNN
 $EndComp
 Text Notes 2900 5250 0    50   ~ 0
 max. 2 A
+$Comp
+L Device:R_Small R15
+U 1 1 5E6AB696
+P 8550 1100
+F 0 "R15" V 8450 1100 50  0000 C CNN
+F 1 "2k7" V 8550 1050 39  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8550 1100 50  0001 C CNN
+F 3 "~" H 8550 1100 50  0001 C CNN
+	1    8550 1100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

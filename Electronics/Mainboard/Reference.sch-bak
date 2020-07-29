@@ -35,6 +35,7 @@ F 0 "U22" H 6250 2550 50  0000 L CNN
 F 1 "AD8675" H 6200 2450 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6400 2950 50  0001 C CNN
 F 3 "" H 6400 2950 50  0001 C CNN
+F 4 "AD8675ARZ-REEL7CT-ND " H 6200 2700 50  0001 C CNN "Digikey"
 	1    6200 2700
 	1    0    0    -1  
 $EndComp
@@ -49,6 +50,7 @@ F 1 "AD8676" H 5400 3750 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5200 3950 50  0001 C CNN
 F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 5200 3950 50  0001 C CNN
 F 4 "" H 5200 3950 50  0001 C CNN "LCSC"
+F 5 "AD8676ARZ-ND" H 5200 3950 50  0001 C CNN "Digikey"
 	1    5200 3950
 	1    0    0    -1  
 $EndComp
@@ -63,6 +65,7 @@ F 1 "AD8676" H 6750 3850 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6550 4050 50  0001 C CNN
 F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 6550 4050 50  0001 C CNN
 F 4 "" H 6550 4050 50  0001 C CNN "LCSC"
+F 5 "AD8676ARZ-ND" H 6550 4050 50  0001 C CNN "Digikey"
 	2    6550 4050
 	1    0    0    1   
 $EndComp
@@ -112,6 +115,7 @@ F 0 "U20" H 2650 3150 50  0000 R CNN
 F 1 "ADR4550" H 2800 3050 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2550 2500 50  0001 C CIN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADR4520_4525_4530_4533_4540_4550.pdf" H 2550 2450 50  0001 C CIN
+F 4 "ADR4550ARZ-ND" H 2450 2800 50  0001 C CNN "Digikey"
 	1    2450 2800
 	1    0    0    -1  
 $EndComp
@@ -482,6 +486,7 @@ F 1 "AD8676" H 7358 5205 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7400 5250 50  0001 C CNN
 F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 7400 5250 50  0001 C CNN
 F 4 "" H 7400 5250 50  0001 C CNN "LCSC"
+F 5 "AD8676ARZ-ND" H 7400 5250 50  0001 C CNN "Digikey"
 	3    7400 5250
 	1    0    0    -1  
 $EndComp

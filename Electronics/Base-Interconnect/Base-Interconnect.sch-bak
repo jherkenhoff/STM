@@ -21,6 +21,8 @@ F 0 "J1" H 2368 2792 50  0000 C CNN
 F 1 "DB9_Male_MountingHoles" H 2368 2701 50  0000 C CNN
 F 2 "STM_Custom_Lib:DSUB-9_Amphenol_LD09S33E4GV00LF-Center" H 2450 2100 50  0001 C CNN
 F 3 " ~" H 2450 2100 50  0001 C CNN
+F 4 "609-5186-ND" H 2450 2100 50  0001 C CNN "Digikey"
+F 5 "RND 205-00770" H 2450 2100 50  0001 C CNN "Reichelt"
 	1    2450 2100
 	-1   0    0    -1  
 $EndComp
@@ -43,6 +45,8 @@ F 0 "J2" H 2368 4342 50  0000 C CNN
 F 1 "DB9_Male_MountingHoles" H 2368 4251 50  0000 C CNN
 F 2 "STM_Custom_Lib:DSUB-9_Amphenol_LD09S33E4GV00LF-Center" H 2450 3650 50  0001 C CNN
 F 3 " ~" H 2450 3650 50  0001 C CNN
+F 4 "609-5186-ND" H 2450 3650 50  0001 C CNN "Digikey"
+F 5 "RND 205-00770" H 2450 3650 50  0001 C CNN "Reichelt"
 	1    2450 3650
 	-1   0    0    -1  
 $EndComp
@@ -54,6 +58,8 @@ F 0 "J3" H 2368 5942 50  0000 C CNN
 F 1 "DB9_Male_MountingHoles" H 2368 5851 50  0000 C CNN
 F 2 "STM_Custom_Lib:DSUB-9_Amphenol_LD09S33E4GV00LF-Center" H 2450 5250 50  0001 C CNN
 F 3 " ~" H 2450 5250 50  0001 C CNN
+F 4 "609-5186-ND" H 2450 5250 50  0001 C CNN "Digikey"
+F 5 "RND 205-00770" H 2450 5250 50  0001 C CNN "Reichelt"
 	1    2450 5250
 	-1   0    0    -1  
 $EndComp
@@ -106,9 +112,9 @@ Text Label 4400 3100 2    50   ~ 0
 piezo_x+
 Text Label 4400 3200 2    50   ~ 0
 piezo_x-
-Text Label 3900 3000 2    50   ~ 0
+Text Label 4400 2900 2    50   ~ 0
 piezo_y+
-Text Label 3900 3150 2    50   ~ 0
+Text Label 4400 3000 2    50   ~ 0
 piezo_y-
 Text Label 2950 3850 0    50   ~ 0
 analog_gnd

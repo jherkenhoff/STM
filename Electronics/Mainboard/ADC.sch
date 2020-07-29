@@ -356,6 +356,7 @@ F 0 "U3" H 4350 2750 50  0000 C CNN
 F 1 "LT1469" H 4650 2750 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4500 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 4500 3000 50  0001 C CNN
+F 4 "LT1469CS8#PBF-ND " H 4500 3000 50  0001 C CNN "Digikey"
 	1    4500 3000
 	1    0    0    1   
 $EndComp
@@ -367,6 +368,7 @@ F 0 "U3" H 4350 4150 50  0000 C CNN
 F 1 "LT1469" H 4650 4150 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4500 4400 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 4500 4400 50  0001 C CNN
+F 4 "LT1469CS8#PBF-ND " H 4500 4400 50  0001 C CNN "Digikey"
 	2    4500 4400
 	1    0    0    1   
 $EndComp
@@ -378,6 +380,7 @@ F 0 "U3" H 10750 5550 50  0000 R CNN
 F 1 "LT1469" H 10800 5450 50  0000 R CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 10550 5500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm358.pdf" H 10550 5500 50  0001 C CNN
+F 4 "LT1469CS8#PBF-ND " H 10550 5500 50  0001 C CNN "Digikey"
 	3    10550 5500
 	1    0    0    -1  
 $EndComp
@@ -389,6 +392,7 @@ F 0 "C18" H 7165 4596 50  0000 L CNN
 F 1 "47u" H 7165 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1210_3225Metric_Pad1.42x2.65mm_HandSolder" H 7088 4400 50  0001 C CNN
 F 3 "~" H 7050 4550 50  0001 C CNN
+F 4 "KEM X5R1210 47U" H 7050 4550 50  0001 C CNN "Reichelt"
 	1    7050 4550
 	1    0    0    -1  
 $EndComp
@@ -630,6 +634,7 @@ F 0 "U19" H 6650 1817 50  0000 C CNN
 F 1 "ADP7142AUJZ-5.0" H 6650 1726 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:TSOT-23-5" H 6650 1050 50  0001 C CIN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADP7142.pdf" H 6650 950 50  0001 C CNN
+F 4 "ADP7142AUJZ-5.0-R7CT-ND" H 6650 1450 50  0001 C CNN "Digikey"
 	1    6650 1450
 	1    0    0    -1  
 $EndComp
@@ -673,7 +678,7 @@ F 0 "U4" H 7100 4150 50  0000 R CNN
 F 1 "LTC2338-18" H 7100 4050 50  0000 R CNN
 F 2 "Package_SO:MSOP-16_3x4.039mm_P0.5mm" H 7550 3700 50  0001 C CIN
 F 3 "https://www.analog.com/media/en/technical-documentation/data-sheets/233818fa.pdf" H 7550 3700 50  0001 C CNN
-F 4 "LTC2338CMS-18#PBF-ND" H 7600 3700 50  0001 C CNN "Digikey"
+F 4 "LTC2338CMS-18#PBF-ND " H 7600 3700 50  0001 C CNN "Digikey"
 	1    7600 3700
 	1    0    0    -1  
 $EndComp

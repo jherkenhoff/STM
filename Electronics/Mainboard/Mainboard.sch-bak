@@ -21,6 +21,7 @@ F 0 "N1" H 1653 7184 50  0000 L CNN
 F 1 "Housing" H 1653 7093 50  0000 L CNN
 F 2 "STM_Custom_Lib:Hammond_1455P1601" H 1550 7200 50  0001 C CNN
 F 3 "https://www.reichelt.de/profilgehaeuse-1455-p-160-x-120-x-30-5-mm-silber-1455p1601-p221381.html?&trstct=pol_6" H 1550 7200 50  0001 C CNN
+F 4 "1455P1601" H 1500 7150 50  0001 C CNN "Reichelt"
 	1    1500 7150
 	1    0    0    -1  
 $EndComp
@@ -32,6 +33,7 @@ F 0 "J2" H 1318 4092 50  0000 C CNN
 F 1 "DB25_Male_MountingHoles" H 1318 4001 50  0000 C CNN
 F 2 "Connector_Dsub:DSUB-25_Male_Horizontal_P2.77x2.84mm_EdgePinOffset4.94mm_Housed_MountingHolesOffset7.48mm" H 1400 2600 50  0001 C CNN
 F 3 " ~" H 1400 2600 50  0001 C CNN
+F 4 "D-SUB ST 25US" H 1400 2600 50  0001 C CNN "Reichelt"
 	1    1400 2600
 	-1   0    0    1   
 $EndComp
@@ -43,7 +45,8 @@ F 0 "J3" H 10680 1752 50  0000 L CNN
 F 1 "609-5192-ND " H 10680 1661 50  0001 L CNN
 F 2 "STM_Custom_Lib:DSUB-9_Amphenol_LD09S33E4GV00LF" H 10500 1750 50  0001 C CNN
 F 3 " ~" H 10500 1750 50  0001 C CNN
-F 4 "609-5192-ND " H 10500 1750 50  0001 C CNN "Digikey"
+F 4 "" H 10500 1750 50  0001 C CNN "Digikey"
+F 5 "RND 205-00769" H 10500 1750 50  0001 C CNN "Reichelt"
 	1    10500 1750
 	1    0    0    -1  
 $EndComp
@@ -214,7 +217,8 @@ F 0 "J4" H 9580 5402 50  0000 L CNN
 F 1 "609-5192-ND " H 9580 5311 50  0001 L CNN
 F 2 "STM_Custom_Lib:DSUB-9_Amphenol_LD09S33E4GV00LF" H 9400 5400 50  0001 C CNN
 F 3 " ~" H 9400 5400 50  0001 C CNN
-F 4 "609-5192-ND " H 9400 5400 50  0001 C CNN "Digikey"
+F 4 "" H 9400 5400 50  0001 C CNN "Digikey"
+F 5 "RND 205-00769" H 9400 5400 50  0001 C CNN "Reichelt"
 	1    9400 5400
 	1    0    0    -1  
 $EndComp
@@ -570,7 +574,8 @@ F 0 "J1" H 10680 4152 50  0000 L CNN
 F 1 "609-5192-ND " H 10680 4061 50  0001 L CNN
 F 2 "STM_Custom_Lib:DSUB-9_Amphenol_LD09S33E4GV00LF" H 10500 4150 50  0001 C CNN
 F 3 " ~" H 10500 4150 50  0001 C CNN
-F 4 "609-5192-ND " H 10500 4150 50  0001 C CNN "Digikey"
+F 4 "" H 10500 4150 50  0001 C CNN "Digikey"
+F 5 "RND 205-00769" H 10500 4150 50  0001 C CNN "Reichelt"
 	1    10500 4150
 	1    0    0    -1  
 $EndComp
@@ -855,6 +860,7 @@ F 0 "U14" H 4900 6500 50  0000 C CNN
 F 1 "LM75C" H 4900 6400 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5400 6800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/ds/symlink/lm75b.pdf" H 5400 6800 50  0001 C CNN
+F 4 "LM 75 SMD" H 5400 6800 50  0001 C CNN "Reichelt"
 	1    5400 6800
 	1    0    0    -1  
 $EndComp

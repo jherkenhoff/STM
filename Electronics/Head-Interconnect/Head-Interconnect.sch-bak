@@ -18,32 +18,35 @@ L Connector:TestPoint TP3
 U 1 1 5D42D08C
 P 1600 1500
 F 0 "TP3" V 1795 1572 50  0000 C CNN
-F 1 "TestPoint" V 1704 1572 50  0000 C CNN
+F 1 "0905-0-15-20-75-14-11-0" V 1704 1572 50  0001 C CNN
 F 2 "Custom:0905-0-15-20-75-14-11-0" H 1800 1500 50  0001 C CNN
 F 3 "~" H 1800 1500 50  0001 C CNN
+F 4 "ED9009-ND " H 1600 1500 50  0001 C CNN "Digikey"
 	1    1600 1500
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP4
 U 1 1 5D42DD4F
-P 1600 2300
-F 0 "TP4" V 1795 2372 50  0000 C CNN
-F 1 "TestPoint" V 1704 2372 50  0000 C CNN
-F 2 "Custom:0905-0-15-20-75-14-11-0" H 1800 2300 50  0001 C CNN
-F 3 "~" H 1800 2300 50  0001 C CNN
-	1    1600 2300
+P 1600 2400
+F 0 "TP4" V 1795 2472 50  0000 C CNN
+F 1 "0905-0-15-20-75-14-11-0" V 1704 2472 50  0001 C CNN
+F 2 "Custom:0905-0-15-20-75-14-11-0" H 1800 2400 50  0001 C CNN
+F 3 "~" H 1800 2400 50  0001 C CNN
+F 4 "ED9009-ND " H 1600 2400 50  0001 C CNN "Digikey"
+	1    1600 2400
 	0    -1   -1   0   
 $EndComp
 $Comp
 L Connector:TestPoint TP5
 U 1 1 5D42E125
-P 1600 2600
-F 0 "TP5" V 1795 2672 50  0000 C CNN
-F 1 "TestPoint" V 1704 2672 50  0000 C CNN
-F 2 "Custom:0905-0-15-20-75-14-11-0" H 1800 2600 50  0001 C CNN
-F 3 "~" H 1800 2600 50  0001 C CNN
-	1    1600 2600
+P 1600 2700
+F 0 "TP5" V 1795 2772 50  0000 C CNN
+F 1 "0905-0-15-20-75-14-11-0" V 1704 2772 50  0001 C CNN
+F 2 "Custom:0905-0-15-20-75-14-11-0" H 1800 2700 50  0001 C CNN
+F 3 "~" H 1800 2700 50  0001 C CNN
+F 4 "ED9009-ND " H 1600 2700 50  0001 C CNN "Digikey"
+	1    1600 2700
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -51,9 +54,10 @@ L Connector:TestPoint TP2
 U 1 1 5D42E3A1
 P 1600 1100
 F 0 "TP2" V 1795 1172 50  0000 C CNN
-F 1 "TestPoint" V 1704 1172 50  0000 C CNN
+F 1 "0905-0-15-20-75-14-11-0" V 1704 1172 50  0001 C CNN
 F 2 "Custom:0905-0-15-20-75-14-11-0" H 1800 1100 50  0001 C CNN
 F 3 "~" H 1800 1100 50  0001 C CNN
+F 4 "ED9009-ND " H 1600 1100 50  0001 C CNN "Digikey"
 	1    1600 1100
 	0    -1   -1   0   
 $EndComp
@@ -62,9 +66,10 @@ L Connector:TestPoint TP1
 U 1 1 5D42E928
 P 1600 1900
 F 0 "TP1" V 1795 1972 50  0000 C CNN
-F 1 "TestPoint" V 1704 1972 50  0000 C CNN
+F 1 "0905-0-15-20-75-14-11-0" V 1704 1972 50  0001 C CNN
 F 2 "Custom:0905-0-15-20-75-14-11-0" H 1800 1900 50  0001 C CNN
 F 3 "~" H 1800 1900 50  0001 C CNN
+F 4 "ED9009-ND " H 1600 1900 50  0001 C CNN "Digikey"
 	1    1600 1900
 	0    -1   -1   0   
 $EndComp
@@ -74,12 +79,12 @@ Wire Wire Line
 	1600 1100 1950 1100
 Wire Wire Line
 	1600 1500 1950 1500
-Text Label 1800 2300 0    50   ~ 0
+Text Label 1800 2400 0    50   ~ 0
 tunnel_signal
-Text Label 1800 2600 0    50   ~ 0
+Text Label 1800 2700 0    50   ~ 0
 tunnel_gnd
 Wire Wire Line
-	1600 2600 3250 2600
+	1600 2700 3250 2700
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J2
 U 1 1 5D4337D5
@@ -88,6 +93,7 @@ F 0 "J2" H 4400 4667 50  0000 C CNN
 F 1 "Conn_02x03_Odd_Even" H 4400 4576 50  0000 C CNN
 F 2 "Connector_PinSocket_1.27mm:PinSocket_2x03_P1.27mm_Vertical_SMD" H 4350 4350 50  0001 C CNN
 F 3 "~" H 4350 4350 50  0001 C CNN
+F 4 "609-3704-1-ND " H 4350 4350 50  0001 C CNN "Digikey"
 	1    4350 4350
 	1    0    0    -1  
 $EndComp
@@ -96,29 +102,28 @@ L Device:CP C2
 U 1 1 5D47620B
 P 1950 1700
 F 0 "C2" H 2068 1746 50  0000 L CNN
-F 1 "CP" H 2068 1655 50  0000 L CNN
+F 1 "220u 35V" H 2068 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x5.4" H 1988 1550 50  0001 C CNN
 F 3 "~" H 1950 1700 50  0001 C CNN
+F 4 "VF 220/35 K-F" H 1950 1700 50  0001 C CNN "Reichelt"
 	1    1950 1700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R3
 U 1 1 5D47E28E
-P 2600 2300
-F 0 "R3" V 2393 2300 50  0000 C CNN
-F 1 "R" V 2484 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 2300 50  0001 C CNN
-F 3 "~" H 2600 2300 50  0001 C CNN
-	1    2600 2300
+P 2600 2400
+F 0 "R3" V 2393 2400 50  0000 C CNN
+F 1 "R" V 2484 2400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2530 2400 50  0001 C CNN
+F 3 "~" H 2600 2400 50  0001 C CNN
+	1    2600 2400
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2750 2300 2950 2300
+	2750 2400 2950 2400
 Wire Wire Line
-	2450 2300 1600 2300
-Text Notes 9150 5400 0    50   ~ 0
-5 x Piezo\n4 x Stepper\n2 x Bias Voltage\n3 x Analog supply\n2 x Tunnel signal\n\nTotal: 16
+	2450 2400 1600 2400
 $Comp
 L Mechanical:MountingHole_Pad H1
 U 1 1 5F1073F8
@@ -171,54 +176,56 @@ F 0 "J4" H 8138 5814 50  0000 L CNN
 F 1 "Conn_01x04_MountingPin" H 8138 5723 50  0000 L CNN
 F 2 "Connector_FFC-FPC:TE_84953-4_1x04-1MP_P1.0mm_Horizontal" H 8050 5900 50  0001 C CNN
 F 3 "~" H 8050 5900 50  0001 C CNN
+F 4 "A33834CT-ND" H 8050 5900 50  0001 C CNN "Digikey"
 	1    8050 5900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper JP1
 U 1 1 5F114569
-P 4050 2300
-F 0 "JP1" H 4050 2564 50  0000 C CNN
-F 1 "Jumper" H 4050 2473 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4050 2300 50  0001 C CNN
-F 3 "~" H 4050 2300 50  0001 C CNN
-	1    4050 2300
+P 4050 2400
+F 0 "JP1" H 4050 2664 50  0000 C CNN
+F 1 "Jumper" H 4050 2573 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4050 2400 50  0001 C CNN
+F 3 "~" H 4050 2400 50  0001 C CNN
+	1    4050 2400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:Jumper JP2
 U 1 1 5F118F15
-P 4050 2600
-F 0 "JP2" H 4050 2864 50  0000 C CNN
-F 1 "Jumper" H 4050 2773 50  0000 C CNN
-F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4050 2600 50  0001 C CNN
-F 3 "~" H 4050 2600 50  0001 C CNN
-	1    4050 2600
+P 4050 2700
+F 0 "JP2" H 4050 2964 50  0000 C CNN
+F 1 "Jumper" H 4050 2873 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm" H 4050 2700 50  0001 C CNN
+F 3 "~" H 4050 2700 50  0001 C CNN
+	1    4050 2700
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:Conn_Coaxial J3
 U 1 1 5F123871
-P 3250 2050
-F 0 "J3" H 3350 2025 50  0000 L CNN
-F 1 "Conn_Coaxial" H 3350 1934 50  0000 L CNN
-F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 3250 2050 50  0001 C CNN
-F 3 " ~" H 3250 2050 50  0001 C CNN
-	1    3250 2050
+P 3250 2150
+F 0 "J3" H 3350 2125 50  0000 L CNN
+F 1 "Conn_Coaxial" H 3350 2034 50  0000 L CNN
+F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 3250 2150 50  0001 C CNN
+F 3 " ~" H 3250 2150 50  0001 C CNN
+F 4 "R 110 426" H 3250 2150 50  0001 C CNN "Reichelt"
+	1    3250 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 2050 2950 2300
-Connection ~ 2950 2300
+	2950 2150 2950 2400
+Connection ~ 2950 2400
 Wire Wire Line
-	2950 2300 3750 2300
+	2950 2400 3750 2400
 Wire Wire Line
-	2950 2050 3050 2050
+	2950 2150 3050 2150
 Wire Wire Line
-	3250 2250 3250 2600
-Connection ~ 3250 2600
+	3250 2350 3250 2700
+Connection ~ 3250 2700
 Wire Wire Line
-	3250 2600 3750 2600
+	3250 2700 3750 2700
 $Comp
 L Connector:Conn_Coaxial J5
 U 1 1 5F12B036
@@ -227,40 +234,41 @@ F 0 "J5" H 7600 5579 50  0000 L CNN
 F 1 "Conn_Coaxial" H 7600 5534 50  0001 L CNN
 F 2 "Connector_Coaxial:MMCX_Molex_73415-1471_Vertical" H 7500 5650 50  0001 C CNN
 F 3 " ~" H 7500 5650 50  0001 C CNN
+F 4 "R 110 426" H 7500 5650 50  0001 C CNN "Reichelt"
 	1    7500 5650
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5F134C49
-P 2450 1050
-F 0 "TP6" H 2508 1122 50  0000 L CNN
-F 1 "TestPoint" H 2508 1077 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2650 1050 50  0001 C CNN
-F 3 "~" H 2650 1050 50  0001 C CNN
-	1    2450 1050
+P 2600 1050
+F 0 "TP6" H 2658 1122 50  0000 L CNN
+F 1 "TestPoint" H 2658 1077 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2800 1050 50  0001 C CNN
+F 3 "~" H 2800 1050 50  0001 C CNN
+	1    2600 1050
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP7
 U 1 1 5F137096
-P 2450 1450
-F 0 "TP7" H 2508 1522 50  0000 L CNN
-F 1 "TestPoint" H 2508 1477 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2650 1450 50  0001 C CNN
-F 3 "~" H 2650 1450 50  0001 C CNN
-	1    2450 1450
+P 2600 1450
+F 0 "TP7" H 2658 1522 50  0000 L CNN
+F 1 "TestPoint" H 2658 1477 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2800 1450 50  0001 C CNN
+F 3 "~" H 2800 1450 50  0001 C CNN
+	1    2600 1450
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP8
 U 1 1 5F137495
-P 2450 1850
-F 0 "TP8" H 2508 1922 50  0000 L CNN
-F 1 "TestPoint" V 2495 2038 50  0001 L CNN
-F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2650 1850 50  0001 C CNN
-F 3 "~" H 2650 1850 50  0001 C CNN
-	1    2450 1850
+P 2600 1850
+F 0 "TP8" H 2658 1922 50  0000 L CNN
+F 1 "TestPoint" V 2645 2038 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2800 1850 50  0001 C CNN
+F 3 "~" H 2800 1850 50  0001 C CNN
+	1    2600 1850
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -297,20 +305,20 @@ Wire Wire Line
 Text Label 3200 6050 0    50   ~ 0
 bias
 Text Label 4950 5200 2    50   ~ 0
-Stepper_A1
+Stepper_A-
 Text Label 4950 5300 2    50   ~ 0
-Stepper_A2
+Stepper_A+
 Text Label 4950 5400 2    50   ~ 0
-Stepper_B1
+Stepper_B+
 Text Label 4950 5500 2    50   ~ 0
-Stepper_B2
+Stepper_B-
 Text Label 3250 5250 0    50   ~ 0
 analog_+15V
 Text Label 3250 5350 0    50   ~ 0
 analog_-15V
-Text Label 4550 2300 0    50   ~ 0
+Text Label 4550 2400 0    50   ~ 0
 tunnel_signal_ffc
-Text Label 4550 2600 0    50   ~ 0
+Text Label 4550 2700 0    50   ~ 0
 tunnel_gnd_ffc
 Text Label 3250 4950 0    50   ~ 0
 tunnel_signal_ffc
@@ -355,20 +363,21 @@ Wire Wire Line
 	2900 4950 3250 4950
 Wire Wire Line
 	2900 5050 3000 5050
-Text Label 2700 1100 0    50   ~ 0
+Text Label 2850 1100 0    50   ~ 0
 analog_+15V
-Text Label 2700 1900 0    50   ~ 0
+Text Label 2850 1900 0    50   ~ 0
 analog_-15V
-Text Label 2700 1500 0    50   ~ 0
+Text Label 2850 1500 0    50   ~ 0
 analog_gnd
 $Comp
 L Device:CP C1
 U 1 1 5D441557
 P 1950 1300
 F 0 "C1" H 2068 1346 50  0000 L CNN
-F 1 "CP" H 2068 1255 50  0000 L CNN
+F 1 "220u 35V" H 2068 1255 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_8x5.4" H 1988 1150 50  0001 C CNN
 F 3 "~" H 1950 1300 50  0001 C CNN
+F 4 "VF 220/35 K-F" H 1950 1300 50  0001 C CNN "Reichelt"
 	1    1950 1300
 	1    0    0    -1  
 $EndComp
@@ -376,19 +385,19 @@ Wire Wire Line
 	1950 1450 1950 1500
 Connection ~ 1950 1500
 Wire Wire Line
-	1950 1500 2450 1500
+	1950 1500 2600 1500
 Wire Wire Line
 	1950 1500 1950 1550
 Wire Wire Line
 	1950 1150 1950 1100
 Connection ~ 1950 1100
 Wire Wire Line
-	1950 1100 2450 1100
+	1950 1100 2600 1100
 Wire Wire Line
 	1950 1850 1950 1900
 Connection ~ 1950 1900
 Wire Wire Line
-	1950 1900 2450 1900
+	1950 1900 2600 1900
 Text Label 4050 4250 2    50   ~ 0
 piezo_x-
 Text Label 4050 4350 2    50   ~ 0
@@ -417,9 +426,9 @@ Wire Wire Line
 Wire Wire Line
 	4050 4350 4150 4350
 Wire Wire Line
-	4550 2300 4350 2300
+	4550 2400 4350 2400
 Wire Wire Line
-	4350 2600 4550 2600
+	4350 2700 4550 2700
 Wire Wire Line
 	3100 5450 3100 5150
 Wire Wire Line
@@ -473,13 +482,13 @@ Wire Wire Line
 Wire Wire Line
 	4950 5500 5050 5500
 Text Label 3250 5850 0    50   ~ 0
-Stepper_A1
+Stepper_A-
 Text Label 3250 5650 0    50   ~ 0
-Stepper_A2
+Stepper_A+
 Text Label 3250 5750 0    50   ~ 0
-Stepper_B1
+Stepper_B+
 Text Label 3250 5550 0    50   ~ 0
-Stepper_B2
+Stepper_B-
 Wire Wire Line
 	3250 5550 2900 5550
 Wire Wire Line
@@ -531,20 +540,20 @@ Wire Wire Line
 Wire Wire Line
 	4750 4700 4750 4450
 Wire Wire Line
-	2450 1050 2450 1100
-Connection ~ 2450 1100
+	2600 1050 2600 1100
+Connection ~ 2600 1100
 Wire Wire Line
-	2450 1100 2700 1100
+	2600 1100 2850 1100
 Wire Wire Line
-	2450 1450 2450 1500
-Connection ~ 2450 1500
+	2600 1450 2600 1500
+Connection ~ 2600 1500
 Wire Wire Line
-	2450 1500 2700 1500
+	2600 1500 2850 1500
 Wire Wire Line
-	2450 1850 2450 1900
-Connection ~ 2450 1900
+	2600 1850 2600 1900
+Connection ~ 2600 1900
 Wire Wire Line
-	2450 1900 2700 1900
+	2600 1900 2850 1900
 $Comp
 L Graphic:Logo_Open_Hardware_Small LOGO1
 U 1 1 5F2785DF
@@ -609,4 +618,21 @@ Wire Wire Line
 Connection ~ 6850 6100
 Wire Wire Line
 	6850 6100 7150 6100
+Text Notes 1100 3200 0    50   ~ 0
+\nAbove testpoint:\nMill-Max Manufacturing Corp.\n0905-0-15-20-75-14-11-0\nDigikey: ED9009-ND 
+Text Notes 5750 3850 0    50   ~ 0
+Mating header\nDigikey: ED10279-ND\nReichelt: BKL 10120630\n(2x3 pin header with 1.27mm grid)
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even #J1
+U 1 1 5F18191F
+P 5250 3750
+F 0 "#J1" H 5300 4067 50  0000 C CNN
+F 1 "Conn_02x03_Odd_Even" H 5300 3976 50  0000 C CNN
+F 2 "" H 5250 3750 50  0001 C CNN
+F 3 "~" H 5250 3750 50  0001 C CNN
+F 4 "ED10279-ND" H 5250 3750 50  0001 C CNN "Digikey"
+F 5 "BKL 10120630" H 5250 3750 50  0001 C CNN "Reichelt"
+	1    5250 3750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

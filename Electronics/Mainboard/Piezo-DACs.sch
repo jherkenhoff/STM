@@ -460,10 +460,11 @@ L STM_Custom_Lib:AD8676 U1
 U 1 1 5DC470EC
 P 8650 1750
 F 0 "U1" H 8850 1650 50  0000 C CNN
-F 1 "AD8676" H 8850 1550 50  0000 C CNN
+F 1 "OPA2991" H 8850 1550 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8650 1750 50  0001 C CNN
-F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 8650 1750 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2991.pdf?ts=1594905249257&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2991" H 8650 1750 50  0001 C CNN
 F 4 "" H 8650 1750 50  0001 C CNN "LCSC"
+F 5 "296-OPA2991IDRCT-ND " H 8650 1750 50  0001 C CNN "Digikey"
 	1    8650 1750
 	1    0    0    -1  
 $EndComp
@@ -472,10 +473,11 @@ L STM_Custom_Lib:AD8676 U1
 U 2 1 5DC47D7D
 P 8650 2850
 F 0 "U1" H 8850 2750 50  0000 C CNN
-F 1 "AD8676" H 8850 2650 50  0000 C CNN
+F 1 "OPA2991" H 8850 2650 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8650 2850 50  0001 C CNN
-F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 8650 2850 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2991.pdf?ts=1594905249257&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2991" H 8650 2850 50  0001 C CNN
 F 4 "" H 8650 2850 50  0001 C CNN "LCSC"
+F 5 "296-OPA2991IDRCT-ND " H 8650 2850 50  0001 C CNN "Digikey"
 	2    8650 2850
 	1    0    0    -1  
 $EndComp
@@ -484,10 +486,11 @@ L STM_Custom_Lib:AD8676 U1
 U 3 1 5DC4890E
 P 7500 2100
 F 0 "U1" H 7458 2146 50  0000 L CNN
-F 1 "AD8676" H 7458 2055 50  0000 L CNN
+F 1 "OPA2991" H 7458 2055 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7500 2100 50  0001 C CNN
-F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 7500 2100 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2991.pdf?ts=1594905249257&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2991" H 7500 2100 50  0001 C CNN
 F 4 "" H 7500 2100 50  0001 C CNN "LCSC"
+F 5 "296-OPA2991IDRCT-ND " H 7500 2100 50  0001 C CNN "Digikey"
 	3    7500 2100
 	1    0    0    -1  
 $EndComp
@@ -496,10 +499,11 @@ L STM_Custom_Lib:AD8676 U2
 U 1 1 5DC527A8
 P 8650 4450
 F 0 "U2" H 8850 4350 50  0000 C CNN
-F 1 "AD8676" H 8850 4250 50  0000 C CNN
+F 1 "OPA2991" H 8850 4250 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8650 4450 50  0001 C CNN
-F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 8650 4450 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2991.pdf?ts=1594905249257&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2991" H 8650 4450 50  0001 C CNN
 F 4 "" H 8650 4450 50  0001 C CNN "LCSC"
+F 5 "296-OPA2991IDRCT-ND " H 8650 4450 50  0001 C CNN "Digikey"
 	1    8650 4450
 	1    0    0    -1  
 $EndComp
@@ -508,10 +512,11 @@ L STM_Custom_Lib:AD8676 U2
 U 2 1 5DC52EFC
 P 8650 5550
 F 0 "U2" H 8850 5450 50  0000 C CNN
-F 1 "AD8676" H 8850 5350 50  0000 C CNN
+F 1 "OPA2991" H 8850 5350 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 8650 5550 50  0001 C CNN
-F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 8650 5550 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2991.pdf?ts=1594905249257&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2991" H 8650 5550 50  0001 C CNN
 F 4 "" H 8650 5550 50  0001 C CNN "LCSC"
+F 5 "296-OPA2991IDRCT-ND " H 8650 5550 50  0001 C CNN "Digikey"
 	2    8650 5550
 	1    0    0    -1  
 $EndComp
@@ -520,10 +525,11 @@ L STM_Custom_Lib:AD8676 U2
 U 3 1 5DC53476
 P 7500 4800
 F 0 "U2" H 7458 4846 50  0000 L CNN
-F 1 "AD8676" H 7458 4755 50  0000 L CNN
+F 1 "OPA2991" H 7458 4755 50  0000 L CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 7500 4800 50  0001 C CNN
-F 3 "https://www.digikey.de/product-detail/de/analog-devices-inc/AD8676ARZ/AD8676ARZ-ND/1246063" H 7500 4800 50  0001 C CNN
+F 3 "https://www.ti.com/lit/ds/symlink/opa2991.pdf?ts=1594905249257&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FOPA2991" H 7500 4800 50  0001 C CNN
 F 4 "" H 7500 4800 50  0001 C CNN "LCSC"
+F 5 "296-OPA2991IDRCT-ND " H 7500 4800 50  0001 C CNN "Digikey"
 	3    7500 4800
 	1    0    0    -1  
 $EndComp
