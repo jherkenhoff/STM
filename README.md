@@ -1,8 +1,14 @@
 # Scanning tunneling microscope
 
-# Assembly
+# Table of Contents
+- [Mechanics](#mechanics)
+  - [Vibration Isolation](#vibration-isolation)
+  - [Scanning Head](#scanning-head)
+- [Electronics](#electronics)
 
-### Vibration Isolation
+# <a name="mechanics"></a>Mechanics
+
+### <a name="vibration-isolation"></a>Vibration Isolation
 Mechanical vibrations present a major difficulty in scanning probe microscopy, as they can interfere with the very small (resolutions of a few 0.1 nm are not uncommon [1]) scanning movements of the tip, leading to a distorted image. Even worse, large mechanical vibrations can cause the scanning tip, which is usually positioned only a few Angstrom above the sample surface [2], to crash into the sample.
 
 Unfortunately, there are many sources for mechanical vibrations: Driving cars, peoples walking around, wind blowing on the walls of your house and the subtle, but omnipresent seismic activity of the earth, just to name a few.
@@ -19,8 +25,14 @@ The complete depicted assembly can optionally be hung from some kind of support 
 
 ![STM Assembly](doc/Assembly.JPG)
 
-# Scanning Head
+### <a name="scanning-head"></a>Scanning Head
 ![Scanning head assembly](doc/Scanning-Head.JPG)
 
-# Electronics
+# <a name="electronics"></a>Electronics
 ![Electronics overview](doc/Electronics-Overview.JPG)
+
+### Tunneling Amp
+
+![Scanning head assembly](doc/Tunneling-Amp-Mounted.JPG)
+
+
