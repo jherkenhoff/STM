@@ -13,9 +13,9 @@ The material Viton was used, as it is reported to have a high damping coefficien
 The figure below depicts an aluminium baseplate (150 mm diameter, 25 mm thickness), the vibration isolation assembly, consisting of three steel plates, each separated by three Viton o-ring cutouts, and the scanning head. The steel plates have a diameter of 100 mm and have an decreasing thickness of 15 mm, 12 mm and 8 mm. I have some spare plates lying around, so I will definately try out some other configurations as well. The plates are laser-cut - hence the terrible surface finish. I might clean them up on a lathe if I can get my hands on one at some point...
 The complete depicted assembly can optionally be hung from some kind of support structure using steel springs or elastic rope, possibly further increasing the effectiveness of the vibration isolation. Since the baseplate is made of aluminium, additional eddy-current damping can be applied if needed.
 
-[1] C. Bai (2000). Scanning tunneling microscopy and its applications. New York: Springer Verlag. ISBN 978-3-540-65715-6.
-[2] C. Julian Chen (1993). Introduction to Scanning Tunneling Microscopy (PDF). Oxford University Press. ISBN 978-0-19-507150-4.
-[3] Oliva, Ai & Aguilar, Marilyn & Sosa, Victor. (1999). Low- and high-frequency vibration isolation for scanning probe microscopy. Measurement Science and Technology. 9. 383. 10.1088/0957-0233/9/3/011.
+- [1] C. Bai (2000). Scanning tunneling microscopy and its applications. New York: Springer Verlag. ISBN 978-3-540-65715-6.
+- [2] C. Julian Chen (1993). Introduction to Scanning Tunneling Microscopy (PDF). Oxford University Press. ISBN 978-0-19-507150-4.
+- [3] Oliva, Ai & Aguilar, Marilyn & Sosa, Victor. (1999). Low- and high-frequency vibration isolation for scanning probe microscopy. Measurement Science and Technology. 9. 383. 10.1088/0957-0233/9/3/011.
 
 ![STM Assembly](doc/Assembly.JPG)
 
