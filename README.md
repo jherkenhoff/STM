@@ -3,7 +3,7 @@
 # Table of Contents
 - [Mechanics](#mechanics)
   - [Vibration Isolation](#vibration-isolation)
-  - [Scanning Head](#scanning-head)
+  - [Scan Head](#scan-head)
 - [Electronics](#electronics)
 
 # <a name="mechanics"></a>Mechanics
@@ -25,7 +25,7 @@ The complete depicted assembly can optionally be hung from some kind of support 
 
 ![STM Assembly](doc/Assembly.JPG)
 
-### <a name="scanning-head"></a>Scanning Head
+### <a name="scan-head"></a>Scan Head
 ![Scanning head assembly](doc/Scanning-Head.JPG)
 
 # <a name="electronics"></a>Electronics
