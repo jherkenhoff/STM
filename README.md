@@ -28,9 +28,12 @@ The complete depicted assembly can optionally be hung from some kind of support 
 ### <a name="piezo-scanner"></a>Piezo Scanner
 Most professional scanning tunneling microscopes make use of piezo tube scanners. Due to their high rigidity (high resonance frequency) and exceptional linearity they are ideally suited for that task. Unfortunately they can cost up to several hundred euros and it's not easy to find a distributor who sells these things to individuals in the first place.
 
-Fortunately, there is an alternative for the expensive piezo tube scanners: Flat piezo disks, commonly used as acoustic transducers in all kinds of electronic devices, can be modified to provide the desired x/y/z scanning motion. For that, the top electrode of the piezo must be cut into four segments, which will be individually controlled resulting in a bending/warping action of the piezo.
+Fortunately, there is an alternative for the expensive piezo tube scanners: Flat piezo disks, commonly used as acoustic transducers in all kinds of electronic devices, can be modified to provide the desired x/y/z scanning motion. For that, the top electrode of the piezo must be cut into four segments, which will be individually controlled using four control voltages. A small standoff is glued to the bottom side of the piezo disk, to which the scanning probe tip is attached.
+Depending on the applied voltages, the piezo disk will bend and warp, resulting in a translation of the scanning probe tip.
 The idea and the first successfull realization for this "unimorph disk scanner" have been published by John Alexander in his great STM Project.
 Since then, this approach has been successfully used in numerous other low-cost STM projects, as these devices are really cheap (less than 1€ per part) and sold by all major electronics distributors.
+The downside of this approach is its low mechanical rigidity, resulting in a lower resonance frequency compared to professional piezo tube scanners. Therefore the achievable scan speed is somewhat limited and the piezo scanner assembly is more sensitive to mechanical vibrations. 
+These are limitations I am willing to accept, as it saves me a lot of money, while still providing great results.
 
 I used a 20 mm piezo disk and carefully cut the upper electrode into four segments using a scalpel. 
 
