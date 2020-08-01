@@ -6,6 +6,10 @@
   - [Piezo Scanner](#piezo-scanner)
   - [Scan Head Assembly](#scan-head-assembly)
 - [Electronics](#electronics)
+  - [Power Supply](#power-supply)
+  - [Mainboard](#mainboard)
+  - [Tunneling Amp](#tunneling-amp)
+  - [Base and Head Interconnect](#interconnects)
 - [References](#references)
 
 # <a name="mechanics"></a>Mechanics
@@ -52,9 +56,17 @@ All parts of the scan head assembly have been machined out of brass using a CNC 
 # <a name="electronics"></a>Electronics
 ![Electronics overview](doc/Electronics-Overview.JPG)
 
-### Tunneling Amp
+
+### <a name="power-supply"></a>Power Supply
+
+### <a name="mainboard"></a>Mainboard
+
+### <a name="tunneling-amp"></a>Tunneling Amp
 
 ![Scanning head assembly](doc/Tunneling-Amp-Mounted.JPG)
+
+
+### <a name="interconnects"></a>Base and Head Interconnect
 
 
 
