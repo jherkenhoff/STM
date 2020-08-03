@@ -74,6 +74,9 @@ All parts of the scan head assembly have been machined out of brass using a CNC 
 
 
 # <a name="software"></a>Software
+
+<img src="doc/Software-Architecture.png" width="500">
+
 ### <a name="pru-firmware"></a>PRU Firmware
 ### <a name="kernel-driver"></a>Kernel Driver
 ### <a name="webserver"></a>Webserver
