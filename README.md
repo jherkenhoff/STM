@@ -10,6 +10,10 @@
   - [Mainboard](#mainboard)
   - [Tunneling Amp](#tunneling-amp)
   - [Base and Head Interconnect](#interconnects)
+- [Software](#software)
+  - [PRU Firmware](#pru-firmware)
+  - [Kernel Driver](#kernel-driver)
+  - [Webserver](#webserver)
 - [References](#references)
 
 # <a name="mechanics"></a>Mechanics
@@ -69,7 +73,10 @@ All parts of the scan head assembly have been machined out of brass using a CNC 
 ### <a name="interconnects"></a>Base and Head Interconnect
 
 
-
+# <a name="software"></a>Software
+### <a name="pru-firmware"></a>PRU Firmware
+### <a name="kernel-driver"></a>Kernel Driver
+### <a name="webserver"></a>Webserver
 
 # <a name="references"></a>References
 
