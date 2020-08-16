@@ -3,6 +3,7 @@
 # Table of Contents
 - [Mechanics](#mechanics)
   - [Vibration Isolation](#vibration-isolation)
+    - [Characterization Measurements](#vibration-characterization-measurements)
   - [Piezo Scanner](#piezo-scanner)
   - [Scan Head Assembly](#scan-head-assembly)
 - [Electronics](#electronics)
@@ -31,6 +32,10 @@ Viton was used, as it is reported to have a high damping coefficient, making it 
 
 The figure above depicts an aluminium baseplate (150 mm diameter, 25 mm thickness), the stack of steel plates and viton o-rings, and the scanning head. The steel plates have a diameter of 100 mm and have an decreasing thickness of 15 mm, 12 mm and 8 mm towards the top. I do have some spare plates lying around, so I will definately try out some other configurations as well. The plates are lasercut - hence the terrible surface finish. I might clean them up on a lathe if I can get my hands on one at some point...
 The complete depicted assembly can optionally be hung from some kind of support structure using steel springs or elastic rope to add another stage of vibration isolation. Since the baseplate is made of aluminium, additional eddy-current damping can be applied if needed.
+
+
+#### <a name="vibration-characterization-measurements"></a>Characterization Measurements
+![Axial vibration isolation measurement](Measurements/Characterization/Vibration-Isolation/axial.png)
 
 
 ### <a name="piezo-scanner"></a>Piezo Scanner
