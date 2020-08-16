@@ -75,6 +75,9 @@ All parts of the scan head assembly have been machined out of brass using a CNC 
 ![Scanning head assembly](doc/Tunneling-Amp-Mounted.JPG)
 
 
+![tunneling-amp-freq-response](doc/tunneling_amp-freq_response.png)
+
+
 ### <a name="interconnects"></a>Base and Head Interconnect
 
 
