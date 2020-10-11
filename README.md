@@ -72,18 +72,22 @@ All parts of the scan head assembly have been machined out of brass using a CNC 
 
 ### <a name="power-supply"></a>Power Supply
 
+- **Analog +/- 15 V:** Supply for DACs, ADC and tunneling amp
+- **Piezo +/- 20 V:** Supply for piezo driver amplifiers
+- **Digital 5 V:** Beaglebone supply
+- **Digital 3.3 V:** Digital interfaces (DACs, ADC) and supply for temperature sensor
+- **Stepper 9 V:** Supply for stepper motor driver
+
+
 ### <a name="mainboard"></a>Mainboard
 
 ### <a name="tunneling-amp"></a>Tunneling Amp
 
 ![Scanning head assembly](doc/Tunneling-Amp-Mounted.JPG)
 
-
 ![tunneling-amp-freq-response](doc/tunneling_amp-freq_response.png)
 
-
 ### <a name="interconnects"></a>Base and Head Interconnect
-
 
 # <a name="software"></a>Software
 
