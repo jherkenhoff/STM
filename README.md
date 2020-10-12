@@ -50,7 +50,7 @@ These are limitations I am willing to accept, as it saves me a lot of money, whi
 
 I used a 20 mm piezo disk and carefully cut the upper electrode into four segments using a scalpel. The upper electrode is commonly made of deposited silver which can be scraped off with medium force. However, care must be taken not to cut/scrape too deep into the piezo crystal itself, as it might get damaged.
 
-I attached thin enameled copper wires to the electrodes using conducting epoxy (MG Chemicals 9410). Soldering might also work here, but there is the risk of depolarizing the piezo crystal when applying too much heat, so I went for the safe route.
+I attached thin enameled copper wires to the electrodes using conducting epoxy (MG Chemicals 9410). Soldering might also work here, but there is the risk of depolarizing the piezo crystal when applying too much heat, so I went for the safe route. The copper wires are attached to a miniature 2x6 pin header, which connects to the head interconnect PCB.
 
 A 10mm ceramic standoff (Essentra Components CER-3) is glued to the bottom of the piezo element, translating the "warping motion" of the flat piezo disk into a translational motion of the scanning probe tip, which in turn is inserted into a precision pin socket glued to the other side of the ceramic standof. Ceramic was chosen for its very high resistivity, resulting in low leakage of the tunneling current.
 
