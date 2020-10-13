@@ -48,7 +48,11 @@ Since then, this approach has been successfully used in numerous other low-cost 
 The downside of this approach is its low mechanical rigidity, resulting in a lower resonance frequency compared to professional piezo tube scanners. Therefore the achievable scan speed is somewhat limited and the piezo scanner is more sensitive to mechanical vibrations. 
 These are limitations I am willing to accept, as it saves me a lot of money, while still providing great results.
 
-I used a 20 mm piezo disk and carefully cut the upper electrode into four segments using a scalpel. 
+I used a 20 mm piezo disk and carefully cut the upper electrode into four segments using a scalpel. The upper electrode is commonly made of deposited silver which can be scraped off with medium force. However, care must be taken not to cut/scrape too deep into the piezo crystal itself, as it might get damaged.
+
+I attached thin enameled copper wires to the electrodes using conducting epoxy (MG Chemicals 9410). Soldering might also work here, but there is the risk of depolarizing the piezo crystal when applying too much heat, so I went for the safe route. The copper wires are attached to a miniature 2x6 pin header, which connects to the head interconnect PCB.
+
+A 10mm ceramic standoff (Essentra Components CER-3) is glued to the bottom of the piezo element, translating the "warping motion" of the flat piezo disk into a translational motion of the scanning probe tip, which in turn is inserted into a precision pin socket glued to the other side of the ceramic standof. Ceramic was chosen for its very high resistivity, resulting in low leakage of the tunneling current.
 
 ### <a name="scan-head-assembly"></a>Scan Head Assembly
 ![Scanning head assembly](doc/Scanning-Head.JPG)
@@ -68,18 +72,22 @@ All parts of the scan head assembly have been machined out of brass using a CNC 
 
 ### <a name="power-supply"></a>Power Supply
 
+- **Analog +/- 15 V:** Supply for DACs, ADC and tunneling amp
+- **Piezo +/- 20 V:** Supply for piezo driver amplifiers
+- **Digital 5 V:** Beaglebone supply
+- **Digital 3.3 V:** Digital interfaces (DACs, ADC) and supply for temperature sensor
+- **Stepper 9 V:** Supply for stepper motor driver
+
+
 ### <a name="mainboard"></a>Mainboard
 
 ### <a name="tunneling-amp"></a>Tunneling Amp
 
 ![Scanning head assembly](doc/Tunneling-Amp-Mounted.JPG)
 
-
 ![tunneling-amp-freq-response](doc/tunneling_amp-freq_response.png)
 
-
 ### <a name="interconnects"></a>Base and Head Interconnect
-
 
 # <a name="software"></a>Software
 
