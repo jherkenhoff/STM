@@ -1179,4 +1179,8 @@ F 3 "~" H 9900 1750 50  0001 C CNN
 $EndComp
 Text Notes 3100 1600 0    50   ~ 0
 DAC Outputs: +/- 10V
+Text Notes 5150 6100 0    79   ~ 16
+Note for next Version:
+Text Notes 5150 6350 0    50   ~ 10
+Swap + and - terminals of OP amps\nSwap Y and Z of last (Z-Y) OP amp
 $EndSCHEMATC
