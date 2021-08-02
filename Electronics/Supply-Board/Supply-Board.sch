@@ -379,7 +379,7 @@ L Regulator_Linear:LM317_3PinPackage U3
 U 1 1 5DD6824C
 P 4900 3400
 F 0 "U3" V 4650 3150 50  0000 R CNN
-F 1 "240R" V 4750 3150 50  0000 R CNN
+F 1 "LM317" V 4750 3150 50  0000 R CNN
 F 2 "Package_TO_SOT_SMD:TO-252-2" H 4900 3650 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 4900 3400 50  0001 C CNN
 	1    4900 3400
@@ -947,7 +947,8 @@ P 4750 5300
 F 0 "L1" V 4935 5300 50  0000 C CNN
 F 1 "3u3" V 4844 5300 50  0000 C CNN
 F 2 "Inductor_SMD:L_Fastron_PISN_Handsoldering" H 4750 5300 50  0001 C CNN
-F 3 "~" H 4750 5300 50  0001 C CNN
+F 3 "https://cdn-reichelt.de/documents/datenblatt/B400/PISM.pdf" H 4750 5300 50  0001 C CNN
+F 4 "L-PISM 3,3µ" V 4750 5300 50  0001 C CNN "Reichelt"
 	1    4750 5300
 	0    -1   -1   0   
 $EndComp
