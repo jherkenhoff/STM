@@ -304,13 +304,13 @@ Wire Wire Line
 	7150 5900 7850 5900
 Text Label 3200 6050 0    50   ~ 0
 bias
-Text Label 4950 5200 2    50   ~ 0
-Stepper_A-
-Text Label 4950 5300 2    50   ~ 0
-Stepper_A+
 Text Label 4950 5400 2    50   ~ 0
-Stepper_B+
+Stepper_A-
 Text Label 4950 5500 2    50   ~ 0
+Stepper_A+
+Text Label 4950 5200 2    50   ~ 0
+Stepper_B+
+Text Label 4950 5300 2    50   ~ 0
 Stepper_B-
 Text Label 3250 5250 0    50   ~ 0
 analog_+15V
@@ -481,13 +481,13 @@ Wire Wire Line
 	4950 5400 5050 5400
 Wire Wire Line
 	4950 5500 5050 5500
-Text Label 3250 5850 0    50   ~ 0
-Stepper_A-
-Text Label 3250 5650 0    50   ~ 0
-Stepper_A+
 Text Label 3250 5750 0    50   ~ 0
-Stepper_B+
+Stepper_A-
 Text Label 3250 5550 0    50   ~ 0
+Stepper_A+
+Text Label 3250 5850 0    50   ~ 0
+Stepper_B+
+Text Label 3250 5650 0    50   ~ 0
 Stepper_B-
 Wire Wire Line
 	3250 5550 2900 5550
