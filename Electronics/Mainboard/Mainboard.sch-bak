@@ -1018,4 +1018,6 @@ F 3 "~" H 2850 7200 50  0001 C CNN
 	1    2850 7200
 	1    0    0    -1  
 $EndComp
+Text Notes 4450 6450 0    50   ~ 0
+Addr.: 0x49
 $EndSCHEMATC
